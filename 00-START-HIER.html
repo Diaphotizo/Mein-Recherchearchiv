@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mein Recherchearchiv · Hier beginnen</title>
+<style>
+:root{color-scheme:light;--green:#143f37;--text:#28463f;--muted:#65776e;--line:#d8e1d7;--cream:#f3f5ee;font-family:"Segoe UI",Arial,sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--text)}main{max-width:1130px;margin:38px auto;padding:40px 46px;background:#fff;border:1px solid var(--line);border-radius:18px}
+header{display:flex;align-items:center;gap:22px;padding-bottom:28px;border-bottom:1px solid var(--line)}
+header img{width:78px;height:78px;flex:none}h1{font:700 35px/1.12 Georgia,serif;color:var(--green);margin:0 0 10px}.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 9px}.subtitle{font-size:17px;margin:0;color:var(--muted)}
+h2{font-size:19px;color:var(--green);margin:0 0 12px}p{font-size:15px;line-height:1.55;margin:10px 0}a{color:#1c6a59;text-underline-offset:3px}a:focus-visible{outline:3px solid #d2b879;outline-offset:5px}
+.setup{padding:24px 0}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:0;padding:0;list-style:none;counter-reset:steps}.steps li{font-size:14px;line-height:1.5;counter-increment:steps}.steps li:before{content:counter(steps);display:inline-grid;place-items:center;width:23px;height:23px;margin:0 7px 7px 0;border-radius:50%;background:#eaf0e3;color:var(--green);font-weight:700}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{display:flex;flex-direction:column;padding:24px;border:1px solid var(--line);border-radius:12px;background:#fcfdf9}.card img{width:64px;height:64px;margin-bottom:19px}.card h2{font:700 25px/1.15 Georgia,serif;margin-bottom:10px}.card .description{min-height:93px;color:var(--muted);margin:0 0 16px;font-size:14px}.folder{font-size:13px;margin:0 0 7px}.launch{display:block;background:#eaf0e5;border-radius:6px;padding:10px;font:13px/1.4 Consolas,monospace;color:var(--green);overflow-wrap:anywhere}.instruction{font-size:12px;color:var(--muted);margin:7px 0 16px}.card a{font-size:14px;margin-top:auto;font-weight:600}
+.shared{margin-top:23px;padding:19px 22px;background:#eff3e8;border-left:4px solid #9cab8c;border-radius:4px}.shared h2{font-size:17px}.shared p{font-size:14px;margin:6px 0}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:27px}.detail-grid h2{font-size:17px}.detail-grid p{font-size:14px}.label{font-weight:600;color:var(--green)}code{font-family:Consolas,monospace;font-size:.94em}
+footer{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:25px;padding-top:17px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.fine{font-size:12px;color:var(--muted);margin-top:17px}
+@media(max-width:850px){main{margin:0;border:0;border-radius:0;padding:27px}.steps{grid-template-columns:repeat(2,1fr)}.cards{gap:12px}.card{padding:18px}.card .description{min-height:120px}}
+@media(max-width:620px){header{gap:15px}header img{width:57px;height:57px}h1{font-size:27px}.subtitle{font-size:15px}.cards{grid-template-columns:1fr}.card{display:grid;grid-template-columns:55px 1fr;column-gap:17px}.card img{grid-row:1 / 7;width:55px;height:55px;margin:0}.card .description{min-height:0}.card h2{font-size:24px}.detail-grid{grid-template-columns:1fr;gap:14px}.steps{gap:14px}}
+@page{size:A4;margin:14mm 15mm}
+@media print{body{background:#fff}main{margin:0;padding:0;border:0;border-radius:0;max-width:none}header{gap:14px;padding-bottom:15px}header img{width:54px;height:54px}h1{font-size:25px}.eyebrow{font-size:9px}.subtitle{font-size:12px}.setup{padding:16px 0}h2{break-after:avoid}.steps{gap:12px}.steps li{font-size:10px}.steps li:before{width:18px;height:18px}.cards{gap:10px}.card{padding:14px;break-inside:avoid}.card img{width:43px;height:43px;margin-bottom:12px}.card h2{font-size:19px}.card .description{font-size:10px;line-height:1.4;min-height:72px;margin-bottom:9px}.folder,.launch,.card a{font-size:10px}.instruction{font-size:9px}.shared{margin-top:16px;padding:12px 14px}.shared h2,.detail-grid h2{font-size:12px}.shared p,.detail-grid p{font-size:10px;line-height:1.4}.detail-grid{margin-top:16px;gap:20px}.shared,.detail-grid{break-inside:avoid}footer{font-size:9px;margin-top:16px;padding-top:12px;gap:9px 15px}.fine{font-size:9px}a{color:inherit}p{orphans:3;widows:3}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<img src="Recherche/web/archive.svg" alt="Weltkugel mit Lupe">
+<div><p class="eyebrow">Mein lokales Quellenarchiv</p><h1>Mein Recherchearchiv</h1><p class="subtitle">BIP, ICC / ICJ und UN · Ein Setup für Windows 11.</p></div>
+</header>
+<section class="setup" aria-labelledby="setup-title">
+<h2 id="setup-title">Installieren, starten und Quellen laden</h2>
+<ol class="steps">
+<li>Die <strong>Setup-Datei (.exe)</strong> öffnen und die Installation abschließen.</li>
+<li>Im Startmenü <strong>Mein Recherchearchiv</strong> öffnen.</li>
+<li>Den gewünschten Reiter <strong>BIP, ICC / ICJ oder UN</strong> wählen.</li>
+<li>Mit <strong>„Jetzt aktualisieren“</strong> die ersten Dokumente herunterladen.</li>
+</ol>
+<p>Python und die benötigten Bibliotheken sind enthalten. Es ist keine zusätzliche Python-Installation nötig.</p>
+</section>
+<div class="cards">
+<section class="card" aria-labelledby="bip-title">
+<img src="BIP/recherche/web/favicon.svg" alt="BIP-Schriftzug">
+<h2 id="bip-title">BIP</h2>
+<p class="description">Öffentliche Artikel und Seiten von bip-jetzt.de. Für die eigene Recherche als Text und PDF.</p>
+<p class="folder">Sammlung: <strong>BIP</strong></p>
+<span class="launch">Startmenü → Mein Recherchearchiv → BIP</span>
+<p class="instruction">Oder den Reiter BIP in der App wählen.</p>
+<a href="BIP/LIESMICH.txt">Hinweise zu BIP lesen →</a>
+</section>
+<section class="card" aria-labelledby="courts-title">
+<img src="Recherche/web/courts.svg" alt="Gerichtssäulen">
+<h2 id="courts-title">ICC / ICJ</h2>
+<p class="description">Öffentliche englischsprachige Gerichtsquellen der eingerichteten Verfahren.</p>
+<p class="folder">Sammlung: <strong>ICC-ICJ</strong></p>
+<span class="launch">Startmenü → Mein Recherchearchiv → ICC-ICJ</span>
+<p class="instruction">Oder den Reiter ICC / ICJ in der App wählen.</p>
+<a href="ICC-ICJ/LIESMICH.txt">Hinweise zu ICC / ICJ lesen →</a>
+</section>
+<section class="card" aria-labelledby="un-title">
+<img src="Recherche/web/un.svg" alt="Grüne UN-Schriftzeichen">
+<h2 id="un-title">UN-Dokumente</h2>
+<p class="description">Deutschland, Israel, Palästina, Gaza, Westbank und UNRWA. Englische und vorhandene deutsche Fassungen.</p>
+<p class="folder">Sammlung: <strong>UN</strong></p>
+<span class="launch">Startmenü → Mein Recherchearchiv → UN</span>
+<p class="instruction">Oder den Reiter UN-Dokumente in der App wählen.</p>
+<a href="UN/LIESMICH.txt">Hinweise zu UN-Dokumenten lesen →</a>
+</section>
+</div>
+<section class="shared" aria-labelledby="shared-title">
+<h2 id="shared-title">Drei Bereiche, eine Installation</h2>
+<p>Alle Einstiege öffnen dieselbe App mit allen drei Reitern. Das Setup richtet sie gemeinsam ein und bietet eine <strong>optionale Desktopverknüpfung</strong> an.</p>
+<p>Dieses Setup ist für <strong>Windows 11 mit Intel- oder AMD-Prozessor (64 Bit)</strong> vorgesehen. Die Funktion auf Windows-Geräten mit ARM-Prozessor ist nicht zugesichert.</p>
+</section>
+<div class="detail-grid">
+<section aria-labelledby="update-title">
+<h2 id="update-title">Dokumente und Programm aktualisieren</h2>
+<p><strong>Die Archive beginnen leer; es werden keine PDFs mitgeliefert.</strong> „Jetzt aktualisieren“ lädt Quellen für den geöffneten Reiter und zeigt das Ergebnis sowie offene Lücken.</p>
+<p>Eine neue <strong>Programmversion</strong> wird mit einer neuen Setup-Datei installiert. Der Aktualisierungsbutton lädt keine Programmupdates.</p>
+</section>
+<section aria-labelledby="backup-title">
+<h2 id="backup-title">Beenden und sichern</h2>
+<p>Laufende Aktualisierungen abschließen lassen. Dann im Startmenü <strong>„Archiv beenden“</strong> wählen. Das Appfenster allein zu schließen, beendet den Hintergrunddienst noch nicht.</p>
+<p>Über <strong>„Archivordner öffnen“</strong> den Speicherort aufrufen und den gesamten Ordner einschließlich <strong>Recherche, BIP, ICC-ICJ und UN</strong> sichern. Den installierten Ordner nicht verschieben.</p>
+</section>
+</div>
+<footer>
+<a href="INSTALLATION.html">Installation und Hilfe</a>
+<a href="00-START-HIER.txt">Übersicht als Text</a>
+<a href="README.md">Überblick und Weitergabe</a>
+<a href="DRITTQUELLEN.md">Drittquellen</a>
+</footer>
+<p class="fine">Zum Weitergeben die ursprüngliche Setup-Datei verwenden. Der benutzte Archivordner enthält später eigene Dokumente und Angaben. Diese Übersicht führt keine Startbefehle aus.</p>
+</main>
+</body>
+</html>

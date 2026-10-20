@@ -1,0 +1,47 @@
+MEIN RECHERCHEARCHIV
+Windows-Installer · BIP · ICC / ICJ · UN-Dokumente
+
+SO GEHT ES LOS
+1. Mein-Recherchearchiv-Setup-1.0.0-Windows11-x64.exe öffnen.
+2. Die Installation abschließen. Python und Bibliotheken sind enthalten.
+3. Im Startmenü „Mein Recherchearchiv“ öffnen.
+4. BIP, ICC / ICJ oder UN wählen und auf „Jetzt aktualisieren“ klicken.
+
+DREI BEREICHE, EINE INSTALLATION
+BIP: öffentliche Artikel und Seiten von bip-jetzt.de als TXT und PDF.
+ICC / ICJ: eingerichtete englischsprachige Gerichtsquellen.
+UN: Dokumente zu Deutschland, Israel, Palästina, Gaza, Westbank und UNRWA;
+englische und vorhandene deutsche Fassungen.
+
+Jeder Bereich hat einen eigenen Direktstart im Startmenü. Alle drei öffnen
+dieselbe App. Im Setup kann zusätzlich eine Desktopverknüpfung angelegt
+werden: „Mein Recherchearchiv (Setup)“.
+
+Die Archive beginnen leer. Der Aktualisierungsbutton lädt Dokumente des
+geöffneten Reiters. Er installiert keine neue Programmversion. Dafür wird
+später eine neue Setup-Datei verwendet. Zugriffssperren können Lücken lassen;
+die App zeigt diese an. Ein vollständiger historischer Bestand wird nicht
+zugesichert. Manuell ergänzte Dokumente anderer Nutzer werden nicht mitgeliefert.
+
+VORAUSSETZUNGEN
+Windows 11 mit Intel- oder AMD-Prozessor (64 Bit), aktueller Browser,
+Internet für den Quellenabruf und genügend Speicherplatz.
+Python, Codex, Dropbox und Node.js müssen nicht separat installiert werden.
+Auf ARM-Geräten ist die Funktion nicht zugesichert.
+
+SICHERN UND BEENDEN
+Aktualisierungen abschließen lassen, dann im Startmenü „Archiv beenden“
+wählen. Über „Archivordner öffnen“ den gesamten Installationsordner sichern,
+einschließlich Recherche, BIP, ICC-ICJ, UN und aller Dateien im Hauptordner.
+Den installierten Ordner nicht verschieben oder umbenennen: Der Katalog kann
+absolute Dokumentpfade enthalten. Eine Deinstallation lässt eigene Dokumente,
+frühere Fassungen und Angaben am bisherigen Speicherort bestehen.
+
+WEITERLESEN
+INSTALLATION.html: druckfähige Anleitung und Hilfe.
+INSTALLATION.txt: dieselbe Anleitung als Text.
+00-START-HIER.html: Übersicht mit den Symbolen der drei Bereiche.
+README.md: Kurzüberblick zur Nutzung und Weitergabe.
+
+Zum Weitergeben die ursprüngliche Setup-Datei verwenden. Nicht den bereits
+benutzten Programmordner weitergeben; darin liegen eigene Archivdaten.

@@ -1,0 +1,41 @@
+UN-DOKUMENTE
+Startmenü: Mein Recherchearchiv → UN
+
+Eingerichtete Quellen zu Deutschland, Israel sowie Palästina, Gaza, Westbank
+und UNRWA. Es werden englische und vorhandene deutsche Fassungen gesammelt;
+das Programm erzeugt keine Übersetzungen. Das Symbol zeigt grüne UN-Schriftzeichen.
+
+Deutschland UND Israel verlangt beide Bezüge, ODER mindestens einen.
+Deutsche Sprache allein bedeutet keinen Deutschland-Bezug.
+
+Die Dokumente und zugehörigen Katalogdaten liegen nach dem Abruf in diesem
+Bereich. Die gemeinsame App und die UN-Programmteile liegen im benachbarten
+Ordner Recherche. Sie werden ebenfalls benötigt.
+
+STARTEN
+Im Windows-Startmenü die Gruppe „Mein Recherchearchiv“ öffnen und den oben
+genannten Bereich wählen. Alle drei Bereiche sind bereits gemeinsam durch
+das Setup eingerichtet. Python und Bibliotheken sind mitgeliefert.
+Alternativ öffnet Starten.cmd in diesem Ordner denselben Bereich.
+Alle Direktstarts führen zur gemeinsamen App mit allen drei Reitern.
+
+DOKUMENTE LADEN
+Im Reiter auf „Jetzt aktualisieren“ klicken und das Ergebnis abwarten.
+Das lädt Quellen für diese Sammlung, keine neue Programmversion. Die Archive
+beginnen leer; persönliche oder manuell ergänzte PDFs des Erstellers werden
+nicht mitgeliefert. Der Bestand ist auf die eingerichteten Quellen begrenzt.
+Zugriffssperren können Lücken lassen. Die App zeigt solche Lücken an und hält
+bereits gespeicherte Dokumente weiterhin verfügbar.
+
+AUFBEWAHREN UND SICHERN
+Der Ordner gehört zur gemeinsamen Installation. Nicht einzeln verschieben
+oder umbenennen; Kataloge können absolute Dokumentpfade enthalten.
+Zur Sicherung Aktualisierungen abschließen lassen und im Startmenü „Archiv
+beenden“ wählen. Danach den gesamten Installationsordner sichern, ausdrücklich
+auch Recherche, BIP, ICC-ICJ, UN, runtime und die Dateien im Hauptordner.
+Über „Archivordner öffnen“ im Startmenü ist dieser Ordner erreichbar.
+Eigene Dokumente, frühere Fassungen und Angaben bleiben bei einer
+Deinstallation am bisherigen Speicherort bestehen.
+
+Neue Programmversionen werden mit einer neuen Setup-Datei installiert.
+Ausführliche Hilfe: INSTALLATION.html im übergeordneten Hauptordner.

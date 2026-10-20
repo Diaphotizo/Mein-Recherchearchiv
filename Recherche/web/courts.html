@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ICC / ICJ-Recherche · Mein Dokumentenarchiv</title>
+  <link rel="icon" href="/portal/courts.svg?v=20261020" type="image/svg+xml">
+  <link rel="stylesheet" href="/app.css"><link rel="stylesheet" href="/portal/portal.css">
+  <script src="/portal/collections.js" defer></script><script src="/portal/courts.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <a href="/icc-icj/" class="brand"><img class="archive-logo" src="/portal/courts.svg?v=20261020" width="58" height="58" alt=""><span>ICC / ICJ-Recherche<small>Mein Lokales Dokumentenarchiv</small></span></a>
+  <div class="top-actions"><span class="local-label"><i></i> Offline durchsuchbar</span><button id="update" class="button primary">↻ Jetzt aktualisieren</button></div>
+</header>
+<nav id="collections" class="collections" aria-label="Recherche-Sammlungen"></nav>
+<div id="notice" role="status" class="notice court-notice" hidden><span id="notice-message"></span><button id="notice-dismiss" class="text-button" type="button" aria-label="Hinweis schließen">Schließen ×</button></div>
+<button id="mobile-filters" class="mobile-filters" aria-controls="filter-panel" aria-expanded="false">Filter & Schlagwörter anzeigen</button>
+<div class="workspace">
+  <aside class="sidebar" id="filter-panel">
+    <div class="filter-head"><h2>Recherche eingrenzen</h2><button id="reset" class="text-button">Zurücksetzen</button></div>
+    <label class="field">Gericht<select id="court"><option value="">ICC und ICJ</option><option value="ICC">ICC · Internationaler Strafgerichtshof</option><option value="ICJ">ICJ · Internationaler Gerichtshof</option></select></label>
+    <label class="field">Verfahren<select id="case"><option value="">Alle Verfahren</option></select></label>
+    <label class="field">Dokumenttyp<select id="kind"><option value="">Alle Dokumenttypen</option></select></label>
+    <label class="field">Einreichende Stelle / Quelle<select id="source"><option value="">Alle Stellen</option></select></label>
+    <fieldset class="date-fields"><legend>Dokument- / Verfahrensdatum</legend><label>Von<input type="date" id="from"></label><label>Bis<input type="date" id="to"></label></fieldset>
+    <label class="check-filter"><input type="checkbox" id="germany"> Deutschland-Bezug</label>
+    <label class="field">Durchsuchbarer Text<select id="text_status"><option value="">Alle Dokumente</option><option value="searchable">Mit Textschicht</option><option value="partial">Teilweise durchsuchbar</option><option value="no_text">Ohne Textschicht</option></select></label>
+    <div class="topic-head"><h2>Schlagwörter</h2><span id="tag-counter">0 gewählt</span></div>
+    <p class="hint">Mehrere Schlagwörter werden mit UND kombiniert.</p>
+    <label class="visually-hidden" for="tag-search">Schlagwort suchen</label><input id="tag-search" placeholder="Schlagwort finden …" type="search">
+    <div id="tag-groups" class="tag-groups"></div>
+    <details class="help"><summary>Wie werden Angaben erfasst?</summary><p>Gericht, Verfahren, Datum und Quelle stammen aus dem vorhandenen Verzeichnis und den öffentlichen Registern. Fehlende Datumsangaben bleiben als unbekannt gekennzeichnet.</p><p>Schlagwörter sind Vorschläge aus dem Dokumenttext. Sie beschreiben behandelte Themen und ersetzen keine inhaltliche oder rechtliche Prüfung.</p><p>Original-PDFs bleiben erhalten. Gescannten Seiten kann eine Textschicht fehlen; sie sind dann weiterhin im PDF lesbar.</p></details>
+  </aside>
+  <main>
+    <div class="eyebrow">INTERNATIONALE GERICHTE · ISRAEL, PALÄSTINA UND DEUTSCHLAND</div>
+    <div class="intro"><div><h1>Gerichtsakten für meine Recherche.</h1><p>Dokumente finden. Verfahren verfolgen. Quellen nachlesen.</p></div><span class="archive-mark" aria-hidden="true">ICC/ICJ</span></div>
+    <div class="stats" id="stats"><span>Sammlung wird geladen …</span></div>
+    <details class="coverage-box" id="coverage"><summary>Umfang, Sprache und Stand der Sammlung</summary><div id="coverage-content"></div><details id="update-details" class="update-details" hidden><summary>Letzter Quellenabgleich</summary><p id="update-summary"></p><ul id="update-errors"></ul></details></details>
+    <form id="search-form" class="searchbox"><span aria-hidden="true">⌕</span><label for="q" class="visually-hidden">Volltextsuche</label><input id="q" type="search" autocomplete="off" placeholder="Dokumenttext, Titel, Aktenzeichen oder Link suchen …"><button class="button primary" type="submit">Suchen</button></form>
+    <div class="quick-topics"><span>Direkt einsteigen</span><button data-quick="Gaza">Gaza</button><button data-quick="Deutschland">Deutschland</button><button data-quick="Völkermord">Völkermord</button><button data-quick="Kriegsverbrechen">Kriegsverbrechen</button><span class="search-tip">„Exakte Wortfolge“ · Strg + K</span></div>
+    <p id="text-coverage" class="collection-note"></p>
+    <div id="selected" class="selected"></div>
+    <div class="results-toolbar"><div><h2 id="result-count" aria-live="polite">Dokumente</h2><p id="result-hint">Neueste Dokumente zuerst</p></div><label>Sortieren<select id="sort"><option value="newest">Neueste zuerst</option><option value="relevance">Relevanz</option><option value="oldest">Älteste zuerst</option><option value="title">Titel A–Z</option></select></label></div>
+    <div id="results" aria-busy="true"></div>
+    <nav id="pagination" class="pagination" aria-label="Ergebnisseiten"></nav>
+    <footer><span id="updated-at"></span><span>ICC / ICJ · Eigenständige Sammlung</span></footer>
+  </main>
+</div>
+<dialog id="reader" class="reader court-reader">
+  <div class="reader-bar"><span>DOKUMENT LESEN</span><div><a id="reader-pdf" class="button primary" target="_blank" rel="noopener">Original-PDF öffnen ↗</a><button id="reader-close" class="icon-button" aria-label="Dokument schließen">✕</button></div></div>
+  <div class="reader-scroll" id="reader-scroll"><div id="reader-header"></div>
+    <div class="page-controls"><button id="page-prev" class="button">← Vorige Seite</button><form id="page-form"><label>PDF-Seite <input id="page-number" type="number" min="1" value="1"><span id="page-total"></span></label></form><button id="page-next" class="button">Nächste Seite →</button></div>
+    <div class="reader-body"><div id="page-message" class="hint"></div><div id="page-text" class="court-page"></div></div>
+  </div>
+</dialog>
+<dialog id="editor" class="editor court-editor">
+  <div class="reader-bar"><h2>Eigene Angaben</h2><button id="editor-close" class="icon-button" aria-label="Bearbeitung schließen">✕</button></div>
+  <form id="edit-form">
+    <p class="hint">Eigene Schlagwörter und Notizen bleiben beim Aktualisieren erhalten. Die Original-PDFs und Quellenangaben werden nicht verändert.</p>
+    <h3>Schlagwörter</h3><div id="edit-tags"></div>
+    <label class="field">Weitere eigene Schlagwörter<input id="custom-tags" placeholder="Mit Komma trennen"></label>
+    <label class="field">Meine Notizen<textarea id="notes" maxlength="20000" placeholder="Gedanken, Bezüge oder Hinweise zu diesem Dokument …"></textarea></label>
+    <div class="edit-actions"><button type="button" id="edit-cancel" class="button">Abbrechen</button><button type="submit" class="button primary">Angaben speichern</button></div>
+    <p id="edit-message" role="status"></p>
+  </form>
+</dialog>
+</body></html>

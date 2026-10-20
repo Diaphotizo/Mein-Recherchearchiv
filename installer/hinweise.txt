@@ -1,0 +1,17 @@
+Mein Recherchearchiv
+BIP · ICC/ICJ · UN-Dokumente
+
+Diese Installation enthält die Anwendung, Python und alle benötigten Bibliotheken.
+Sie benötigen keine zusätzliche Python-Installation und kein Codex-Konto.
+
+Die drei Sammlungen beginnen leer. Nach der Installation können Sie im gewünschten
+Reiter mit „Jetzt aktualisieren“ die eingerichteten öffentlichen Quellen abrufen.
+Für Dokumentabrufe benötigen Sie Internet.
+
+Die Anwendung wird nur für Ihr Windows-Benutzerkonto eingerichtet.
+Dokumente und persönliche Angaben werden im Installationsordner gespeichert.
+Wählen Sie einen dauerhaft verfügbaren, beschreibbaren Ordner.
+
+Bei einer späteren Deinstallation bleiben Dokumente, frühere Fassungen und
+persönliche Angaben erhalten. Sichern Sie vor Programmwechseln den gesamten
+Archivordner. Bitte verschieben Sie den installierten Ordner nicht nachträglich.

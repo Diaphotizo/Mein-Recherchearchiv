@@ -1,0 +1,12 @@
+{
+  "name": "mein-recherchearchiv-icon-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional developer tools; Node.js is not required to run the archive.",
+  "scripts": {
+    "icons": "node Recherche/scripts/create_collection_icons.cjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}

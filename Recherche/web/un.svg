@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">UN-Quellensammlung</title>
+  <!-- Original geometric lettering for this project; MIT license. No UN emblem or external font. -->
+  <rect width="128" height="128" rx="24" fill="#143f37"/>
+  <g fill="none" stroke="#f7f8f4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M27 40v34c0 10 5 16 14 16s14-6 14-16V40"/>
+    <path d="M73 90V40l28 50V40"/>
+  </g>
+</svg>

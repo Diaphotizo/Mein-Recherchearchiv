@@ -1,0 +1,23 @@
+Mein Recherchearchiv – Windows-Installation 1.0.0
+
+Zielplattform: Windows 11 x64 (Intel/AMD).
+Enthaltene Laufzeit: offizielles CPython 3.13.16, Windows embeddable x64.
+Alle Python-Abhängigkeiten sind fest versioniert und lokal mitgeliefert.
+Die Installation benötigt keinen Internetabruf. Dokumentaktualisierungen schon.
+Es werden keine systemweite Python-Installation und keine PATH-Einträge angelegt.
+
+Python-Download und Prüfsumme:
+https://www.python.org/downloads/release/python-31316/
+https://www.python.org/ftp/python/3.13.16/python-3.13.16-embed-amd64.zip
+SHA256: 97dae5274cc54867065e8d5a3226e48c35017ed332a0fdb0e27d5b5821961297
+
+Installer-Compiler: Inno Setup 6.7.3
+https://jrsoftware.org/isdl.php
+Die heruntergeladene Compiler-Datei wurde vor der Ausführung auf ihre gültige
+digitale Signatur von Pyrsys B.V. geprüft.
+Das daraus erstellte Recherchearchiv-Setup hat keine eigene Codesignatur.
+
+Lizenzen: eigener Anwendungscode in LICENSE, Python in runtime/LICENSE.txt,
+Bibliothekslizenzen in runtime/Lib/site-packages bei den jeweiligen Paketen
+und .dist-info-Verzeichnissen. Hinweise zu Symbolen in DRITTQUELLEN.md.
+Der vollständige Anwendungscode bleibt als lesbare Python-Dateien enthalten.

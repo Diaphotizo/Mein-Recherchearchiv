@@ -1,0 +1,36 @@
+WINDOWS-INSTALLER SELBST ERSTELLEN
+
+Die vollständige Anleitung steht in installer/README.md.
+Die Anwendung liegt in der Repository-Wurzel, nicht mehr in einem payload-Ordner.
+
+Aus einem neuen Checkout unter Windows, mit regulärem Python 3.13 und pip:
+  python installer/build_setup.py --prepare-runtime
+  powershell -File installer/install_inno.ps1
+  runtime\python.exe -B pruefen.py
+  runtime\python.exe -B installer/test_runtime.py
+  python -m unittest discover -s installer -p "test_installer_support.py"
+  python -m unittest discover -s installer -p "test_build_setup.py"
+  python installer/build_setup.py --compiler installer/tools/InnoSetup/ISCC.exe --isolated-test
+  python installer/test_setup_integration.py
+  python installer/build_setup.py --compiler installer/tools/InnoSetup/ISCC.exe --source-zip
+
+Bei einem Fehler anhalten. Ergebnisse: installer/output.
+Installer-Pruefung.exe ist eine isolierte Testausgabe, keine veröffentlichbare EXE.
+Die reguläre Windows-11-Ausgabe bleibt unsigniert. SignPath ist nur vorbereitet.
+
+Nur Quellcode-ZIP, ohne Downloads:
+  python installer/build_setup.py --source-zip
+
+Bestehende Ergebnisse werden nicht überschrieben. Keine Archive, Dokumente,
+früheren Fassungen oder eigenen Angaben ins Repository aufnehmen. Angepasste
+UN/data/sources.json-Dateien werden beim Release-Build abgelehnt.
+
+Vor einer Veröffentlichung auf echtem Windows 11 installieren, alle drei
+Sammlungen öffnen, Verknüpfungen, Upgrade und Deinstallation prüfen. Dokumente
+und eigene Angaben müssen erhalten bleiben. CI unter Windows Server 2022
+ersetzt diese Windows-11-Prüfung nicht.
+
+GitHub: ausschließlich manueller Workflow windows-unsigned.yml im öffentlichen
+Diaphotizo/Mein-Recherchearchiv. Zuerst Freikontingent und wirksame Kostensperre
+prüfen. Kein kostenpflichtiges Konto, Guthaben oder Signierabo einrichten.
+Weitere Einzelheiten stehen in README.md und signpath/README.md dieses Ordners.

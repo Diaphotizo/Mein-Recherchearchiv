@@ -1,0 +1,16 @@
+{
+  "asset": "un.svg",
+  "derived_icon": "un.ico",
+  "origin": "Eigene, geometrisch gezeichnete Buchstaben U und N für Mein Recherchearchiv.",
+  "method": "Zwei selbst gezeichnete SVG-Linienpfade auf einem abgerundeten Rechteck; keine Schriftdatei oder externe Bildvorlage.",
+  "external_template": null,
+  "official_emblem": false,
+  "license": "MIT; siehe LICENSE im Projektverzeichnis.",
+  "colors": {
+    "background": "#143f37",
+    "lettering": "#f7f8f4"
+  },
+  "updated_on": "2026-10-20",
+  "filename_note": "Der bisherige Dateiname bleibt für die Paketierung erhalten. Das Symbol enthält kein UN-Emblem.",
+  "designation_note": "UN bezeichnet die Quellensammlung. Daraus folgt keine Verbindung, Empfehlung oder Freigabe durch die Vereinten Nationen."
+}

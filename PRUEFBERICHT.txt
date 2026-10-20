@@ -1,0 +1,43 @@
+PRÜFBERICHT – WINDOWS-INSTALLER 1.0.0
+Stand: 20. Oktober 2026
+
+Ziel: Windows 11 x64 (Intel/AMD). Geprüft auf Windows-Build 26300.
+Mitgelieferte Laufzeit: offizielles CPython 3.13.16 x64.
+
+BESTANDENE PRÜFUNGEN
+- 190 automatisierte Anwendungstests unter der gebündelten Python-Laufzeit.
+- 10 Tests für die Setup-Vorbereitung, echte Windows-Dateisperren,
+  Erhalt von Konfigurationen und Schutz anderer laufender Archive.
+- Lesen, Textextraktion und Rendern einer synthetischen PDF mit pypdf,
+  pdfplumber und pypdfium2; SQLite-FTS5; zwei echte Spawn-Arbeitsprozesse.
+- Isolierte tatsächliche Inno-Installation in einem neuen Testordner.
+- Start aller drei leeren Oberflächen und ihrer Suchsammlungs-APIs.
+- PDF-/Arbeitsprozessprüfung erneut aus der installierten Laufzeit.
+- Erneute Installation bei laufendem eigenen Suchdienst: sicheres Beenden
+  und unveränderte Erhaltung aller 11 Testdateien.
+- Deinstallation entfernt Programm und Laufzeit, erhält alle 11 Testdateien
+  für Dokumente, frühere Fassungen, eigene Angaben und Quellenkonfiguration.
+- Eine gehaltene Aktualisierungssperre blockiert Upgrade und Deinstallation.
+- Installer-Positivliste und Dateiprüfsummen unabhängig geprüft.
+- Keine privaten Archivdaten, Logs, Caches oder Buildrechner-Pfade im Paket.
+- 41 Lizenz-/Hinweisdateien für Python und die mitgelieferten Bibliotheken.
+
+PRÜFGRENZEN
+Die Ausführungsumgebung blockiert Windows-Registrierungs- und Startmenüänderungen.
+Die normale Installation wurde dadurch zurückgerollt. Anschließend wurde
+für den Lebenszyklustest aus demselben Setup-Skript eine getrennte Testausgabe
+mit identischem Anwendungspayload, aber ohne Programmregistrierung und
+Startmenüeinträge erstellt. Die ausgelieferte normale Setup-Datei enthält
+weiterhin diese standardmäßigen Windows-Einträge. Deren tatsächliche Anlage
+und die optische Darstellung des interaktiven Setup-Assistenten wurden hier
+nicht bestätigt. Es wurde keine zweite fabrikneue Windows-VM getestet.
+
+Keine externe Vollabfrage der Dokumentquellen während der Installerprüfung.
+Die vorhandenen Abruf-/Indexierungstests nutzen synthetische Quelldaten.
+Die aktuelle Erreichbarkeit sämtlicher Webseiten ist keine Installationsgarantie.
+Historische Bestände, manuelle Ergänzungen und eigene Angaben werden nicht geteilt.
+Das produktive Recherchearchiv wurde weder geändert noch neu installiert.
+
+Die Setup-Datei ist nicht digital signiert. Ihr SHA256-Wert steht separat
+neben der ausgegebenen Datei. Die Ausgangsdatei des Installer-Compilers hatte
+vor Ausführung eine gültige Authenticode-Signatur von Pyrsys B.V.

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BIP-Recherche · Eigenständiges Artikelarchiv</title>
+  <link rel="icon" href="/favicon.svg?v=20261020-uppercase" type="image/svg+xml">
+  <link rel="stylesheet" href="/app.css"><link rel="stylesheet" href="/portal/portal.css"><script src="/portal/collections.js" defer></script><script src="/app.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <a href="/" class="brand">
+    <span class="brand-icon" aria-hidden="true">BIP<span>↗</span></span>
+    <span>BIP-Recherche<small>Mein lokales Quellenarchiv</small></span>
+  </a>
+  <div class="top-actions"><span class="local-label"><i></i> Offline durchsuchbar</span><button id="update" class="button primary">↻ Jetzt aktualisieren</button></div>
+</header>
+<nav id="collections" class="collections" aria-label="Recherche-Sammlungen"></nav>
+<div id="notice" role="status" class="notice" hidden></div>
+<button id="mobile-filters" class="mobile-filters" aria-controls="filter-panel" aria-expanded="false">Filter & Schlagwörter anzeigen</button>
+<div class="workspace">
+  <aside class="sidebar" id="filter-panel">
+    <div class="filter-head"><h2>Recherche eingrenzen</h2><button id="reset" class="text-button">Zurücksetzen</button></div>
+    <label class="field">Sammlung<select id="scope"><option value="posts">Artikel & Beiträge</option><option value="all">Gesamter Bestand</option><option value="pages">Ergänzende Seiten</option><option value="archived">Frühere, entfernte Beiträge</option></select></label>
+    <label class="field">Autor / Redaktion / Gesprächsgast<select id="author"><option value="">Alle Personen & Redaktionen</option></select></label>
+    <label class="field">Rolle<select id="role"><option value="">Alle Rollen</option><option>Autor</option><option>Autor eines Teiltexts</option><option>Redaktion</option><option>Gesprächsgast</option></select></label>
+    <fieldset class="date-fields"><legend>Veröffentlichungsdatum</legend><label>Von<input type="date" id="from"></label><label>Bis<input type="date" id="to"></label></fieldset>
+    <label class="field">Beitragstyp<select id="kind"><option value="">Alle Beitragstypen</option></select></label>
+    <div class="topic-head"><h2>Schlagwörter</h2><span id="tag-counter">0 gewählt</span></div>
+    <p class="hint">Mehrere Schlagwörter werden mit UND kombiniert.</p>
+    <label class="visually-hidden" for="tag-search">Schlagwort suchen</label><input id="tag-search" placeholder="Schlagwort finden …" type="search">
+    <div id="tag-groups" class="tag-groups"></div>
+    <details class="help"><summary>Wie werden Angaben erfasst?</summary><p>Autoren und Rollen stammen aus eindeutigen Angaben im Artikel. Namen aus dem technischen Website-Konto gelten nicht automatisch als Verfasser.</p><p>Schlagwörter werden aus Titel, Überschriften und wiederholten Begriffen vorgeschlagen. Du kannst sie bearbeiten. Die Originaltexte bleiben unverändert.</p><p>Die PDFs sind durchsuchbare Textfassungen mit Quellenlinks. Bilder, Audio und Video bleiben als Beschreibungen beziehungsweise Links erhalten.</p></details>
+  </aside>
+  <main>
+    <div class="eyebrow">BIP · BÜNDNIS FÜR GERECHTIGKEIT ZWISCHEN ISRAELIS UND PALÄSTINENSERN</div>
+    <div class="intro"><div><h1>Das Archiv für meine Recherche.</h1><p>Artikel finden. Themen verbinden. Quellen nachlesen.</p></div><span class="archive-mark" aria-hidden="true">BIP</span></div>
+    <div class="stats" id="stats"><span>Sammlung wird geladen …</span></div>
+    <form id="search-form" class="searchbox"><span aria-hidden="true">⌕</span><label for="q" class="visually-hidden">Volltextsuche</label><input id="q" type="search" autocomplete="off" placeholder="Den gesamten Artikeltext durchsuchen …"><button class="button primary" type="submit">Suchen</button></form>
+    <div class="quick-topics"><span>Direkt einsteigen</span><button data-quick="Gaza">Gaza</button><button data-quick="Westbank / Westjordanland">Westbank</button><button data-quick="Wirtschaft">Wirtschaft</button><button data-quick="Folter">Folter</button><span class="search-tip">„Exakte Wortfolge“ · Strg + K</span></div>
+    <div id="selected" class="selected"></div>
+    <div class="results-toolbar"><div><h2 id="result-count" aria-live="polite">Artikel</h2><p id="result-hint">Neueste Veröffentlichungen zuerst</p></div><label>Sortieren<select id="sort"><option value="newest">Neueste zuerst</option><option value="relevance">Relevanz</option><option value="oldest">Älteste zuerst</option><option value="title">Titel A–Z</option></select></label></div>
+    <div id="results" aria-busy="true"></div>
+    <nav id="pagination" class="pagination" aria-label="Ergebnisseiten"></nav>
+    <footer><span id="updated-at"></span><span>BIP-Recherche · Eigenständige Sammlung</span></footer>
+  </main>
+</div>
+<dialog id="reader" class="reader">
+  <div class="reader-bar"><span>ARTIKEL LESEN</span><div><a id="reader-pdf" class="button primary" target="_blank" rel="noopener">PDF öffnen ↗</a><button id="reader-close" class="icon-button" aria-label="Artikel schließen">✕</button></div></div>
+  <div class="reader-scroll" id="reader-scroll"><div id="reader-content"></div></div>
+</dialog>
+<dialog id="editor" class="editor">
+  <div class="reader-bar"><h2>Eigene Angaben</h2><button id="editor-close" class="icon-button" aria-label="Bearbeitung schließen">✕</button></div>
+  <form id="edit-form">
+    <p class="hint">Deine Änderungen bleiben bei Aktualisierungen erhalten. Die Quellenangaben und der Originaltext werden bewahrt.</p>
+    <h3>Schlagwörter</h3><div id="edit-tags"></div>
+    <label class="field">Weitere eigene Schlagwörter<input id="custom-tags" placeholder="Mit Komma trennen"></label>
+    <h3>Personen ergänzen</h3><p class="hint">Quellenangaben stehen weiterhin im Artikel. Hier kannst Du zusätzliche, selbst geprüfte Angaben hinterlegen.</p>
+    <div id="edit-people"></div><button id="add-person" type="button" class="button">+ Person ergänzen</button>
+    <div class="edit-actions"><button type="button" id="edit-cancel" class="button">Abbrechen</button><button type="submit" class="button primary">Angaben speichern</button></div>
+    <p id="edit-message" role="status"></p>
+  </form>
+</dialog>
+</body></html>

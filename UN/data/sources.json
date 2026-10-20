@@ -1,0 +1,2139 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "relations": [
+      "germany",
+      "israel",
+      "palestine"
+    ],
+    "views": [
+      "both",
+      "either",
+      "germany",
+      "israel",
+      "palestine"
+    ],
+    "languages": [
+      "en",
+      "de"
+    ],
+    "extra_theme": "Palästina, Gaza, Westbank und UNRWA, auch ohne zentralen Deutschland- oder Israel-Bezug"
+  },
+  "documents": [
+    {
+      "title": "Report of the Working Group on the Universal Periodic Review: Germany",
+      "symbol": "A/HRC/55/10",
+      "date": "2023-12-22",
+      "body": "Human Rights Council",
+      "author": "Working Group on the Universal Periodic Review",
+      "kind": "UPR-Länderbericht",
+      "language": "en",
+      "url": "https://digitallibrary.un.org/record/4035853",
+      "pdf_url": "https://digitallibrary.un.org/record/4035853/files/A_HRC_55_10-EN.pdf",
+      "relations": {
+        "germany": true,
+        "israel": false,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "germany": [
+          "Deutschland ist Gegenstand des UPR-Länderberichts A/HRC/55/10."
+        ]
+      },
+      "tags": [
+        "Deutschland",
+        "Menschenrechte",
+        "UPR"
+      ],
+      "metadata_note": "Offizieller UPR-Länderbericht; Datum und Symbol aus dem Dokumentkopf. Abrufbarkeit wird bei jedem Abgleich geprüft.",
+      "manual_review": {
+        "status": "language_verified",
+        "sha256": "4587c395284fbfff58fe891de38ef0af2de889b592415723589948502c67a703",
+        "language": "en",
+        "reviewed_at": "2026-10-20T10:08:25.237121+00:00",
+        "pages": 27,
+        "method": "Original-PDF geöffnet, Seitenzahl und vollständige Textschicht geprüft; Kopf- und Schlussseiten visuell geprüft.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "OTH 84/2024 · Antwort von thyssenkrupp AG vom 17. Juli 2024",
+      "symbol": "OTH 84/2024",
+      "date": "2024-07-17",
+      "body": "OHCHR · Sonderverfahren",
+      "author": "thyssenkrupp AG · Miguel Ángel López Borrego",
+      "kind": "Unternehmensantwort",
+      "language": "en",
+      "url": "https://spcommreports.ohchr.org/TmSearch/Mandates?m=22",
+      "pdf_url": "https://spcommreports.ohchr.org/TMResultsBase/DownLoadFile?gId=38545",
+      "relations": {
+        "germany": true,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [
+          "Antwort von thyssenkrupp AG; der Brief behandelt ausdrücklich die deutschen gesetzlichen Grundlagen und deren Anwendung durch die Bundesregierung bei Marineexporten."
+        ],
+        "israel": [
+          "Antwort zur OHCHR-Kommunikation OTH 84/2024 über Rüstungslieferungen an Israel; Zuordnung durch das öffentliche OHCHR-Kommunikationsregister."
+        ],
+        "palestine": [
+          "Die zugehörige OHCHR-Kommunikation OTH 84/2024 behandelt den Zusammenhang der Rüstungslieferungen mit Angriffen in Gaza."
+        ]
+      },
+      "tags": [
+        "Deutschland",
+        "Israel",
+        "Gaza",
+        "Waffenlieferungen",
+        "Wirtschaft"
+      ],
+      "metadata_note": "Am 13.10.2026 vollständig visuell geprüft: einseitiger englischer Brief auf thyssenkrupp-Briefpapier, Datum 07|17|2024. Unternehmensantwort, kein von der UN verfasster Bericht. Die kurze Textlänge erklärt die zuvor nicht eindeutige automatische Spracherkennung.",
+      "manual_review": {
+        "status": "language_verified",
+        "method": "Alle PDF-Seiten mit Poppler gerendert und visuell gelesen; Textschicht zusätzlich geprüft",
+        "sha256": "d36e188a312f1b1c4333d1b434017cc9c1caf43a1f6de13e120ffc68d5bf890e",
+        "pages": 1,
+        "bytes": 107936,
+        "text_pages": 1,
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "DEU 1/2022 · Deutsche Antwort vom 29. März 2022 · Note verbale 64/2022",
+      "symbol": "DEU 1/2022",
+      "date": "2022-03-29",
+      "body": "OHCHR · Sonderverfahren",
+      "author": "Ständige Vertretung der Bundesrepublik Deutschland bei den Vereinten Nationen in Genf",
+      "kind": "Staatliche Antwort · Note verbale",
+      "language": "en",
+      "url": "https://spcommreports.ohchr.org/TmSearch/Mandates?m=22",
+      "pdf_url": "https://spcommreports.ohchr.org/TMResultsBase/DownLoadFile?gId=36861",
+      "relations": {
+        "germany": true,
+        "israel": false,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "germany": [
+          "Antwort der deutschen Ständigen Vertretung auf JAL DEU 1/2022; behandelt deutsche Staatsangehörige, deutsche humanitäre Maßnahmen und Rückführungen aus Nordostsyrien."
+        ],
+        "israel": [],
+        "palestine": []
+      },
+      "tags": [
+        "Deutschland",
+        "Menschenrechte",
+        "Syrien",
+        "Kinder",
+        "Humanitäre Hilfe"
+      ],
+      "metadata_note": "Am 13.10.2026 beide Seiten vollständig visuell geprüft: englische Note verbale Nr. 64/2022, Bezug JAL DEU 1/2022, Abschlussdatum Geneva, 29 March 2022. Staatliche Antwort, kein von der UN verfasster Bericht. Das Original ist ein Scan ohne auslesbare Textschicht.",
+      "manual_review": {
+        "status": "language_verified_scan",
+        "method": "Beide PDF-Seiten mit Poppler gerendert und visuell gelesen",
+        "sha256": "10a0453fbef09b14c0fe781f5cfa42a84dbd1a2b193d93ab157d6762e16a40dc",
+        "pages": 2,
+        "bytes": 440561,
+        "text_pages": 0,
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Report of the Working Group on the Universal Periodic Review: Israel",
+      "symbol": "A/HRC/54/16",
+      "date": "2023-06-28",
+      "body": "Human Rights Council",
+      "author": "UN. Human Rights Council. Working Group on the Universal Periodic Review",
+      "kind": "Bericht",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/report-of-the-working-group-on-the-universal-periodic-review-israel-a-hrc-54-16/",
+      "pdf_url": "https://www.un.org/unispal/wp-content/uploads/2023/08/A.HRC_.54.16_280623.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "israel": [
+          "Israel ist Gegenstand des UPR-Länderberichts A/HRC/54/16."
+        ]
+      },
+      "tags": [
+        "Israel",
+        "Menschenrechte",
+        "UPR"
+      ],
+      "metadata_note": "Original-PDF am 13.10.2026 erfolgreich von UNISPAL abgerufen: 25 Seiten, SHA-256 85659346c1291309ccc50d4351bab4dcdd0e876941a5275d3d58a286ffe92e48. Dokumentkopf bestätigt A/HRC/54/16, Original: English, 28 June 2023. Ersetzt den nicht liefernden Digital-Library-Download; dessen Nachweis bleibt in den Prüfnotizen erhalten."
+    },
+    {
+      "title": "Assistance to Palestine refugees: General Assembly resolution 302 (IV)",
+      "date": "1949-12-08",
+      "symbol": "A/RES/302 (IV)",
+      "body": "General Assembly",
+      "author": "General Assembly",
+      "kind": "Resolution",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-180266/",
+      "pdf_url": "https://www.un.org/unispal/wp-content/uploads/1949/12/nr005121.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Themenzuordnung im UN-Informationssystem zur Palästinafrage (UNISPAL): https://www.un.org/unispal/document/auto-insert-180266/"
+        ]
+      },
+      "tags": [
+        "Palästina"
+      ],
+      "metadata_note": "UNISPAL-Datensatz 180266; Quellen- und Dokumentdaten aus der Dokumentseite, PDF aus „Download Document Files“. UNISPAL-Sprachtaxonomie: English. Publikationsdatum aus „Publication Date“.\nPDF-Prüfung vom 13.10.2026: Englische Originalfassung. Generalversammlung ist Urheberin; UNRWA, UNCCP und andere im Quellenregister genannte Institutionen sind keine Mitautoren dieser Resolution. Der PDF-Auszug enthält außerdem angrenzenden Text von Resolution 301 und 303.",
+      "manual_review": {
+        "status": "language_verified",
+        "language": "en",
+        "sha256": "ae547a44e6609485cbfe923da333bb6779322bc63dda043e547fdb8e13f99f64",
+        "reviewed_on": "2026-10-13",
+        "method": "Gezielte Poppler-Seitenansichten visuell gelesen; vorhandene Textschicht ergänzend geprüft",
+        "pages": 3,
+        "reviewed_pdf_pages": [
+          1,
+          3
+        ],
+        "evidence": "PDF-Seite 1: 302 (IV). Assistance to Palestine refugees und The General Assembly. PDF-Seite 3 schließt Resolution 302 mit 273rd plenary meeting, 8 December 1949. Englischer Text auf allen drei PDF-Seiten.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Report of the Commissioner-General of UNRWA, 1 July 1986–30 June 1987",
+      "date": "1987-09-15",
+      "symbol": "A/42/13",
+      "body": "General Assembly",
+      "author": "UNRWA Commissioner-General · Giorgio Giacomelli",
+      "kind": "Annual report",
+      "language": "en",
+      "url": "https://unispal.un.org/pdfs/a4213.pdf",
+      "pdf_url": "https://unispal.un.org/pdfs/a4213.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Übermittlungsschreiben auf PDF-Seite4 beschreibt die Stellungnahme der Regierung Israels und Tätigkeit in seit1967 vonIsrael besetzten Gebieten."
+        ],
+        "palestine": [
+          "UNRWA-Jahresbericht über Hilfsleistungen für Palästinaflüchtlinge."
+        ]
+      },
+      "tags": [
+        "Palästina"
+      ],
+      "metadata_note": "UNRWA-Bericht für 1. Juli 1986 bis 30. Juni 1987. Veröffentlichungsdatum: 15. September 1987, Übermittlungsschreiben: 2. September 1987. Die Anlage a4213.pdf gehört zu A/42/13 (1987), nicht zum gesonderten Dokument A/4213 (1959).",
+      "manual_review": {
+        "status": "language_verified_scan",
+        "language": "en",
+        "sha256": "7dbf9a30fbb77996762ce5784a64b9694238330d9705f5138c7bd36e48c7f3cc",
+        "reviewed_on": "2026-10-13",
+        "method": "Gezielte Poppler-Seitenansichten visuell gelesen; vorhandene Textschicht ergänzend geprüft",
+        "pages": 45,
+        "reviewed_pdf_pages": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "evidence": "Cover PDF-Seite 1: Report of the Commissioner-General, 1 July 1986–30 June 1987, Supplement No. 13 (A/42/13), New York 1987. PDF-Seite 3 nennt [15 September 1987]. Seite 4: Letter of transmittal, 2 September 1987, Giorgio GIACOMELLI, Commissioner-General. Seiten 1–5 sind Englisch.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Summary record of the sixty-second meeting of the UNCCP General Committee, Geneva, 22 June 1950",
+      "date": "1950-06-22",
+      "symbol": "A/AC.25/Com.Gen/SR.62",
+      "body": "United Nations Conciliation Commission for Palestine",
+      "author": "United Nations Conciliation Commission for Palestine · General Committee",
+      "kind": "Summary record",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-210593/",
+      "pdf_url": "https://unispal.un.org/pdfs/AAC25ComGenSR62.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Expliziter Länderbezug im Dokumenttitel: Interpretation of resolution A/RES/194 (III); Draft rules of procedure for the mixed Arab-Israeli cttees; blocked accounts – UNCCP’s General Cttee 62nd mtg. (Geneva) – Summary record (https://www.un.org/unispal/document/auto-insert-210593/)"
+        ],
+        "palestine": [
+          "Themenzuordnung im UN-Informationssystem zur Palästinafrage (UNISPAL): https://www.un.org/unispal/document/auto-insert-210593/"
+        ]
+      },
+      "tags": [
+        "Palästina"
+      ],
+      "metadata_note": "UNISPAL-Datensatz 210593; Quellen- und Dokumentdaten aus der Dokumentseite, PDF aus „Download Document Files“. Keine eindeutige Sprachkennzeichnung der Anlage; PDF-Inhalt muss geprüft werden. Publikationsdatum aus „Publication Date“.\nPDF-Prüfung vom 13.10.2026: Englische Übersetzung eines französischen Originals. Kennung SR.62 beibehalten: handschriftliche Berichtigung auf Seite 1 bestätigt die 62. Sitzung. Spätere Seitenköpfe enthalten noch SR.61; diese Druckabweichung ist kein Beleg für ein anderes Dokument. OCR vorhanden, aber fehlerbehaftet.",
+      "manual_review": {
+        "status": "language_verified",
+        "language": "en",
+        "sha256": "f92c70240f1f39c8ff72796c23c41d7c2bd2895b97aec0ff874a9278012c6ed9",
+        "reviewed_on": "2026-10-13",
+        "method": "Gezielte Poppler-Seitenansichten visuell gelesen; vorhandene Textschicht ergänzend geprüft",
+        "pages": 4,
+        "reviewed_pdf_pages": [
+          1,
+          2
+        ],
+        "evidence": "PDF-Seite 1: UNITED NATIONS CONCILIATION COMMISSION FOR PALESTINE, GENERAL COMMITTEE, 22 June 1950, ENGLISH, ORIGINAL: FRENCH. Gedrucktes COM/GEN/SR.61 ist handschriftlich zu 62 korrigiert; im Titel wurde FIRST durch handschriftliches SECOND ersetzt. Seite 2 trägt noch den unkorrigierten gedruckten Kopf SR.61. Textschicht aller vier Seiten ist Englisch, aber OCR-fehlerhaft.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Future government of Palestine: General Assembly resolution 181 (II) · English/French",
+      "date": "1947-11-29",
+      "symbol": "A/RES/181 (II)",
+      "body": "General Assembly",
+      "author": "General Assembly",
+      "kind": "Resolution",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-185393/",
+      "pdf_url": "https://www.un.org/unispal/wp-content/uploads/1947/11/ARES181.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Themenzuordnung im UN-Informationssystem zur Palästinafrage (UNISPAL): https://www.un.org/unispal/document/auto-insert-185393/"
+        ]
+      },
+      "tags": [
+        "Palästina"
+      ],
+      "metadata_note": "UNISPAL-Datensatz 185393; Quellen- und Dokumentdaten aus der Dokumentseite, PDF aus „Download Document Files“. Keine eindeutige Sprachkennzeichnung der Anlage; PDF-Inhalt muss geprüft werden. Publikationsdatum aus „Publication Date“.\nPDF-Prüfung vom 13.10.2026: Original-PDF enthält Englisch und Französisch nebeneinander. Englisch ist als enthaltene gewünschte Sprache korrekt; die zusätzliche französische Fassung muss im Anzeigehinweis erkennbar sein. Kein rein englisches PDF. Urheberin ist die Generalversammlung, nicht alle im UNISPAL-Register verschlagworteten Gremien.",
+      "manual_review": {
+        "status": "language_verified",
+        "language": "en",
+        "sha256": "b7739e3c8f385b7c13c968e934fa53f7f94b6a7ffde6dbf3ebe77d758ebe613e",
+        "reviewed_on": "2026-10-13",
+        "method": "Gezielte Poppler-Seitenansichten visuell gelesen; vorhandene Textschicht ergänzend geprüft",
+        "pages": 22,
+        "reviewed_pdf_pages": [
+          1,
+          2
+        ],
+        "evidence": "PDF-Seite 1 zeigt nebeneinander 181 (II). Future government of Palestine / Gouvernement futur de la Palestine und die Generalversammlung als beschließendes Organ. PDF-Seite 2 nennt 29 November 1947. Zweispaltige englisch-französische Fassung; englischer Text eindeutig vorhanden.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Die künftige Regierung Palästinas",
+      "symbol": "A/RES/181 (II)",
+      "date": "1947-11-29",
+      "body": "Generalversammlung",
+      "author": "Generalversammlung",
+      "kind": "Resolution",
+      "language": "de",
+      "url": "https://www.un.org/german/sites/default/files/2024-09/ar181-ii.pdf",
+      "pdf_url": "https://www.un.org/german/sites/default/files/2024-09/ar181-ii.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Palästina bzw. UNRWA/Palästinaflüchtlinge sind der ausdrückliche Gegenstand des Dokuments."
+        ]
+      },
+      "tags": [
+        "Palästina"
+      ],
+      "metadata_note": "Deutsche Fassung und PDF-URL durch öffentliche UN-Primärquelle belegt. Fehlendes Datum bleibt bis zur PDF-Prüfung offen.\nPDF-Prüfung vom 13.10.2026: Historisches Beschlussdatum 29.11.1947 laut Titelkopf; Übersetzung datiert Februar 1993 (ohne Tag). Im Datumsfilter bleibt das belegte Resolutionsdatum 1947, nicht ein erfundener Übersetzungstag."
+    },
+    {
+      "title": "Resolution 242 (1967) zur Situation im Nahen Osten",
+      "symbol": "S/RES/242 (1967)",
+      "date": "1967-11-22",
+      "body": "Sicherheitsrat",
+      "author": "Sicherheitsrat",
+      "kind": "Resolution",
+      "language": "de",
+      "url": "https://www.un.org/german/sites/default/files/2024-09/sr242-67.pdf",
+      "pdf_url": "https://www.un.org/german/sites/default/files/2024-09/sr242-67.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Resolution zur Beilegung des Nahostkonflikts mit Israel; Bezug auf israelische Streitkräfte bzw. die Umsetzung von Resolution 242 (1967)."
+        ],
+        "palestine": []
+      },
+      "tags": [
+        "Israel",
+        "Friedensverhandlungen"
+      ],
+      "metadata_note": "Deutsche Fassung und PDF-URL durch öffentliche UN-Primärquelle belegt. Fehlendes Datum bleibt bis zur PDF-Prüfung offen.\nPDF-Prüfung vom 13.10.2026: Belegtes Resolutionsdatum im PDF; kein separates Verteilungsdatum in dieser historischen Fassung."
+    },
+    {
+      "title": "Resolution 338 (1973) zur Situation im Nahen Osten",
+      "symbol": "S/RES/338 (1973)",
+      "date": "1973-10-22",
+      "body": "Sicherheitsrat",
+      "author": "Sicherheitsrat",
+      "kind": "Resolution",
+      "language": "de",
+      "url": "https://www.un.org/german/sites/default/files/2024-09/sr338-73.pdf",
+      "pdf_url": "https://www.un.org/german/sites/default/files/2024-09/sr338-73.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Resolution zur Beilegung des Nahostkonflikts mit Israel; Bezug auf israelische Streitkräfte bzw. die Umsetzung von Resolution 242 (1967)."
+        ],
+        "palestine": []
+      },
+      "tags": [
+        "Israel",
+        "Friedensverhandlungen"
+      ],
+      "metadata_note": "Deutsche Fassung und PDF-URL durch öffentliche UN-Primärquelle belegt. Fehlendes Datum bleibt bis zur PDF-Prüfung offen.\nPDF-Prüfung vom 13.10.2026: Belegtes Resolutionsdatum im PDF; kein separates Verteilungsdatum in dieser historischen Fassung."
+    },
+    {
+      "title": "Tätigkeiten des Hilfswerks der Vereinten Nationen für Palästinaflüchtlinge im Nahen Osten",
+      "symbol": "A/RES/72/82",
+      "date": "2017-12-14",
+      "body": "Generalversammlung",
+      "author": "Generalversammlung",
+      "kind": "Resolution",
+      "language": "de",
+      "url": "https://www.un.org/german/sites/default/files/2024-09/ar72082.pdf",
+      "pdf_url": "https://www.un.org/german/sites/default/files/2024-09/ar72082.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Palästina bzw. UNRWA/Palästinaflüchtlinge sind der ausdrückliche Gegenstand des Dokuments."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "UNRWA",
+        "Flüchtlinge"
+      ],
+      "metadata_note": "Deutsche Fassung und PDF-URL durch öffentliche UN-Primärquelle belegt. Fehlendes Datum bleibt bis zur PDF-Prüfung offen.\nPDF-Prüfung vom 13.10.2026: Kopf-Verteilungsdatum 14.12.2017; verabschiedet am 07.12.2017. Deutsche Fassung, Resolution 72/82 und UNRWA-Titel im tatsächlichen PDF bestätigt.",
+      "adoption_date": "2017-12-07"
+    },
+    {
+      "title": "Tätigkeiten des Hilfswerks der Vereinten Nationen für Palästinaflüchtlinge im Nahen Osten",
+      "symbol": "A/RES/76/78",
+      "date": "2021-12-15",
+      "body": "Generalversammlung",
+      "author": "Generalversammlung",
+      "kind": "Resolution",
+      "language": "de",
+      "url": "https://www.un.org/german/sites/default/files/2024-09/ar76078.pdf",
+      "pdf_url": "https://www.un.org/german/sites/default/files/2024-09/ar76078.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Palästina bzw. UNRWA/Palästinaflüchtlinge sind der ausdrückliche Gegenstand des Dokuments."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "UNRWA",
+        "Flüchtlinge"
+      ],
+      "metadata_note": "Deutsche Fassung und PDF-URL durch öffentliche UN-Primärquelle belegt. Fehlendes Datum bleibt bis zur PDF-Prüfung offen.\nPDF-Prüfung vom 13.10.2026: Kopf-Verteilungsdatum 15.12.2021; verabschiedet am 09.12.2021. Deutsche Fassung, Resolution 76/78 und UNRWA-Titel im tatsächlichen PDF bestätigt.",
+      "adoption_date": "2021-12-09"
+    },
+    {
+      "title": "Bericht der Arbeitsgruppe für die allgemeine regelmäßige Überprüfung: Deutschland",
+      "symbol": "A/HRC/11/15",
+      "date": "2009-03-04",
+      "body": "Menschenrechtsrat",
+      "author": "Arbeitsgruppe für die Allgemeine regelmäßige Überprüfung (UPR)",
+      "kind": "Bericht der UPR-Arbeitsgruppe",
+      "language": "de",
+      "url": "https://www.un.org/german/de/media/4733",
+      "listing_url": "https://www.un.org/german/de/dokumentenbibliothek?search_api_fulltext=Deutschlands",
+      "tags": [
+        "Menschenrechte"
+      ],
+      "relations": {
+        "germany": true,
+        "israel": false,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "germany": [
+          "Dokumenttitel: „Bericht der Arbeitsgruppe für die allgemeine regelmäßige Überprüfung Deutschlands“"
+        ],
+        "israel": [],
+        "palestine": []
+      },
+      "metadata_note": "Deutsche Fassung beim Deutschen Übersetzungsdienst der Vereinten Nationen; Titel, Datum, Organ, Kategorie und Stichwörter aus der Dokumenttabelle. Deutsch als Dokumentsprache bedeutet keinen Deutschland-Bezug. Urheberschaft aus dem ausdrücklichen Dokumenttitel: „Bericht der Arbeitsgruppe für die allgemeine regelmäßige Überprüfung Deutschlands“.\nPDF-Prüfung vom 13.10.2026: Kopf auf Seite 1: Verteilung 04.03.2009, deutsche Übersetzung des englischen Originals.",
+      "pdf_url": "https://www.un.org/german/sites/default/files/2024-09/a-hrc-11-15.pdf"
+    },
+    {
+      "title": "Die Situation im Nahen Osten einschließlich der Palästina-Frage",
+      "symbol": "S/RES/1435 (2002)",
+      "date": "2002-09-24",
+      "body": "Sicherheitsrat",
+      "author": "Sicherheitsrat",
+      "kind": "Resolution",
+      "language": "de",
+      "url": "https://www.un.org/german/de/media/6328",
+      "listing_url": "https://www.un.org/german/de/dokumentenbibliothek?search_api_fulltext=Pal%C3%A4stina&page=1",
+      "tags": [
+        "Naher Osten",
+        "Palästina",
+        "Israel"
+      ],
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Stichwörter der UN-Bibliothek: „Naher Osten, Palästina, Israel“"
+        ],
+        "palestine": [
+          "Dokumenttitel: „Die Situation im Nahen Osten einschließlich der Palästina-Frage“",
+          "Stichwörter der UN-Bibliothek: „Naher Osten, Palästina, Israel“"
+        ]
+      },
+      "metadata_note": "Deutsche Fassung beim Deutschen Übersetzungsdienst der Vereinten Nationen; Titel, Datum, Organ, Kategorie und Stichwörter aus der Dokumenttabelle. Deutsch als Dokumentsprache bedeutet keinen Deutschland-Bezug.\nPDF-Prüfung vom 13.10.2026: Auszug aus dem amtlichen Sammelband; Überschrift Resolution 1435 (2002) vom 24.09.2002. Kein gesondertes Verteilungsdatum im Auszug; belegtes Resolutionsdatum verwendet.",
+      "pdf_url": "https://www.un.org/german/sites/default/files/2024-09/sr1435.pdf"
+    },
+    {
+      "title": "Die Situation im Nahen Osten einschließlich der Palästina-Frage",
+      "symbol": "S/RES/1405 (2002)",
+      "date": "2002-04-19",
+      "body": "Sicherheitsrat",
+      "author": "Sicherheitsrat",
+      "kind": "Resolution",
+      "language": "de",
+      "url": "https://www.un.org/german/de/media/8813",
+      "listing_url": "https://www.un.org/german/de/dokumentenbibliothek?search_api_fulltext=Pal%C3%A4stina&page=1",
+      "tags": [
+        "Naher Osten",
+        "Israel",
+        "Palästina"
+      ],
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Stichwörter der UN-Bibliothek: „Naher Osten, Israel, Palästina“"
+        ],
+        "palestine": [
+          "Dokumenttitel: „Die Situation im Nahen Osten einschließlich der Palästina-Frage“",
+          "Stichwörter der UN-Bibliothek: „Naher Osten, Israel, Palästina“"
+        ]
+      },
+      "metadata_note": "Deutsche Fassung beim Deutschen Übersetzungsdienst der Vereinten Nationen; Titel, Datum, Organ, Kategorie und Stichwörter aus der Dokumenttabelle. Deutsch als Dokumentsprache bedeutet keinen Deutschland-Bezug.\nPDF-Prüfung vom 13.10.2026: Auszug aus dem amtlichen Sammelband; Überschrift Resolution 1405 (2002) vom 19.04.2002. Kein gesondertes Verteilungsdatum im Auszug; belegtes Resolutionsdatum verwendet.",
+      "pdf_url": "https://www.un.org/german/sites/default/files/2024-09/sr1405.pdf"
+    },
+    {
+      "title": "Die Situation im Nahen Osten einschließlich der Palästina-Frage",
+      "symbol": "S/RES/1402 (2002)",
+      "date": "2002-03-30",
+      "body": "Sicherheitsrat",
+      "author": "Sicherheitsrat",
+      "kind": "Resolution",
+      "language": "de",
+      "url": "https://www.un.org/german/de/media/8792",
+      "listing_url": "https://www.un.org/german/de/dokumentenbibliothek?search_api_fulltext=Pal%C3%A4stina&page=1",
+      "tags": [
+        "Naher Osten",
+        "Israel",
+        "Palästina"
+      ],
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Stichwörter der UN-Bibliothek: „Naher Osten, Israel, Palästina“"
+        ],
+        "palestine": [
+          "Dokumenttitel: „Die Situation im Nahen Osten einschließlich der Palästina-Frage“",
+          "Stichwörter der UN-Bibliothek: „Naher Osten, Israel, Palästina“"
+        ]
+      },
+      "metadata_note": "Deutsche Fassung beim Deutschen Übersetzungsdienst der Vereinten Nationen; Titel, Datum, Organ, Kategorie und Stichwörter aus der Dokumenttabelle. Deutsch als Dokumentsprache bedeutet keinen Deutschland-Bezug.\nPDF-Prüfung vom 13.10.2026: Auszug aus dem amtlichen Sammelband; Überschrift Resolution 1402 (2002) vom 30.03.2002. Kein gesondertes Verteilungsdatum im Auszug; belegtes Resolutionsdatum verwendet.",
+      "pdf_url": "https://www.un.org/german/sites/default/files/2024-09/sr1402.pdf"
+    },
+    {
+      "title": "Die Situation im Nahen Osten einschließlich der Palästina-Frage",
+      "symbol": "S/RES/1397 (2002)",
+      "date": "2002-03-12",
+      "body": "Sicherheitsrat",
+      "author": "Sicherheitsrat",
+      "kind": "Resolution",
+      "language": "de",
+      "url": "https://www.un.org/german/de/media/8892",
+      "listing_url": "https://www.un.org/german/de/dokumentenbibliothek?search_api_fulltext=Pal%C3%A4stina&page=1",
+      "tags": [
+        "Naher Osten",
+        "Israel",
+        "Palästina"
+      ],
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Stichwörter der UN-Bibliothek: „Naher Osten, Israel, Palästina“"
+        ],
+        "palestine": [
+          "Dokumenttitel: „Die Situation im Nahen Osten einschließlich der Palästina-Frage“",
+          "Stichwörter der UN-Bibliothek: „Naher Osten, Israel, Palästina“"
+        ]
+      },
+      "metadata_note": "Deutsche Fassung beim Deutschen Übersetzungsdienst der Vereinten Nationen; Titel, Datum, Organ, Kategorie und Stichwörter aus der Dokumenttabelle. Deutsch als Dokumentsprache bedeutet keinen Deutschland-Bezug.\nPDF-Prüfung vom 13.10.2026: Belegtes Resolutionsdatum im PDF; kein separates Verteilungsdatum in dieser historischen Fassung.",
+      "pdf_url": "https://www.un.org/german/sites/default/files/2024-09/sr1397.pdf"
+    },
+    {
+      "title": "Palästina: Zwischenbericht des Vermittlers der Vereinten Nationen",
+      "symbol": "A/RES/194 (III)",
+      "date": "1948-12-11",
+      "body": "Generalversammlung",
+      "author": "Generalversammlung",
+      "kind": "Resolution",
+      "language": "de",
+      "url": "https://www.un.org/german/de/media/15329",
+      "listing_url": "https://www.un.org/german/de/dokumentenbibliothek?search_api_fulltext=Pal%C3%A4stina&page=1",
+      "tags": [
+        "Naher Osten",
+        "Palästina"
+      ],
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Dokumenttitel: „Palästina: Zwischenbericht des Vermittlers der Vereinten Nationen“",
+          "Stichwörter der UN-Bibliothek: „Naher Osten, Palästina“"
+        ]
+      },
+      "metadata_note": "Deutsche Fassung beim Deutschen Übersetzungsdienst der Vereinten Nationen; Titel, Datum, Organ, Kategorie und Stichwörter aus der Dokumenttabelle. Deutsch als Dokumentsprache bedeutet keinen Deutschland-Bezug.\nPDF-Prüfung vom 13.10.2026: Quellfehler berichtigt: deutsche UN-Bibliothek nennt (I), tatsächlicher PDF-Kopf eindeutig A/RES/194 (III), 11.12.1948. Übersetzung datiert März 2003 (ohne Tag); belegtes historisches Resolutionsdatum beibehalten.",
+      "pdf_url": "https://www.un.org/german/sites/default/files/2024-09/res194.pdf"
+    },
+    {
+      "title": "Palestine — Progress Report of the United Nations Mediator",
+      "symbol": "A/RES/194 (III)",
+      "date": "1948-12-11",
+      "url": "https://unispal.un.org/pdfs/C758572B78D1CD0085256BCF0077E51A.pdf",
+      "pdf_url": "https://unispal.un.org/pdfs/C758572B78D1CD0085256BCF0077E51A.pdf",
+      "language": "en",
+      "body": "General Assembly",
+      "author": "General Assembly",
+      "kind": "Resolution",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "palestine": [
+          "Offizielles englisches UN-PDF am 13.10.2026 heruntergeladen und Dokumentkopf geprüft; 3 Seiten. Palästina, Flüchtlinge und Jerusalem sind Gegenstand der Resolution."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "Flüchtlinge",
+        "Jerusalem"
+      ],
+      "metadata_note": "Offizielles englisches UN-PDF am 13.10.2026 heruntergeladen und Dokumentkopf geprüft; 3 Seiten. Palästina, Flüchtlinge und Jerusalem sind Gegenstand der Resolution."
+    },
+    {
+      "title": "Aufnahme der Deutschen Demokratischen Republik und der Bundesrepublik Deutschland in die Vereinten Nationen",
+      "symbol": "A/RES/3050 (XXVIII)",
+      "date": "1973-09-18",
+      "url": "https://www.un.org/german/sites/default/files/2024-09/ar3050.pdf",
+      "pdf_url": "https://www.un.org/german/sites/default/files/2024-09/ar3050.pdf",
+      "language": "de",
+      "body": "Generalversammlung",
+      "author": "Generalversammlung",
+      "kind": "Resolution",
+      "relations": {
+        "germany": true,
+        "israel": false,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "germany": [
+          "Deutscher UN-Übersetzungsdienst: Resolution über die UN-Aufnahme beider deutscher Staaten; Datum und Kennung im öffentlich indexierten Originalkopf bestätigt."
+        ]
+      },
+      "tags": [
+        "Deutschland",
+        "UN-Mitgliedschaft"
+      ],
+      "metadata_note": "Deutscher UN-Übersetzungsdienst: Resolution über die UN-Aufnahme beider deutscher Staaten; Datum und Kennung im öffentlich indexierten Originalkopf bestätigt."
+    },
+    {
+      "title": "Abschließende Bemerkungen zum kombinierten zweiten und dritten periodischen Bericht Deutschlands",
+      "symbol": "CRPD/C/DEU/CO/2-3",
+      "date": "2023-10-03",
+      "url": "https://www.un.org/german/sites/default/files/2024-09/CRPD-C-DEU-CO-2-3.pdf",
+      "pdf_url": "https://www.un.org/german/sites/default/files/2024-09/CRPD-C-DEU-CO-2-3.pdf",
+      "language": "de",
+      "body": "UN-Ausschuss für die Rechte von Menschen mit Behinderungen",
+      "author": "UN-Ausschuss für die Rechte von Menschen mit Behinderungen",
+      "kind": "Abschließende Bemerkungen",
+      "relations": {
+        "germany": true,
+        "israel": false,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "germany": [
+          "Der Ausschuss prüft ausdrücklich Deutschlands Staatenbericht; direkte offizielle deutsche PDF-Adresse und Dokumentkopf durch Primärquelle belegt."
+        ]
+      },
+      "tags": [
+        "Deutschland",
+        "Menschenrechte",
+        "Menschen mit Behinderungen"
+      ],
+      "metadata_note": "Der Ausschuss prüft ausdrücklich Deutschlands Staatenbericht; direkte offizielle deutsche PDF-Adresse und Dokumentkopf durch Primärquelle belegt.\nPDF-Prüfung vom 13.10.2026: Verteilung 03.10.2023 laut deutschem PDF-Kopf. Ausschuss nahm die Bemerkungen am 05./06.09.2023 an; diese Daten nicht als Veröffentlichungsdatum einsetzen."
+    },
+    {
+      "title": "Return of population and refugees displaced since 1967: Report of the Secretary-General",
+      "symbol": "A/45/466",
+      "date": "1990-09-08",
+      "url": "https://unispal.un.org/pdfs/a45466.pdf",
+      "pdf_url": "https://unispal.un.org/pdfs/a45466.pdf",
+      "language": "en",
+      "body": "General Assembly",
+      "author": "Secretary-General of the United Nations",
+      "kind": "Report of the Secretary-General",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "PDF-Seiten1–2: Rückkehr aus den seit1967 vonIsrael besetzten Gebieten; Bericht enthält die förmliche Antwort der Ständigen Vertretung Israels."
+        ],
+        "palestine": [
+          "Bericht behandelt die Rückkehr Vertriebener und vonUNRWA registrierter Palästinaflüchtlinge nachWestbank undGaza."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "UNRWA",
+        "Flüchtlinge"
+      ],
+      "metadata_note": "UNISPAL-Dokumentseite auto-insert-186992 nennt dieses PDF als Anlage, Kennung A/45/466 und Publication Date 08/09/1990. Thema: Vertriebene und UNRWA.\nPDF-Prüfung vom 13.10.2026: Englischer Scan ohne auslesbare Textschicht. Datum 8. September 1990 bestätigt. Exakter Titel und Urheber aus dem Dokumentkopf; der Bericht behandelt ausdrücklich Israels Antwort und die Rückkehr Vertriebener.",
+      "manual_review": {
+        "status": "language_verified_scan",
+        "language": "en",
+        "sha256": "d124771c668d358cdf60758b8386d99c4d6d4bf7b144c0b66e12e5a7fcfbcfdf",
+        "reviewed_on": "2026-10-13",
+        "method": "Gezielte Poppler-Seitenansichten visuell gelesen; vorhandene Textschicht ergänzend geprüft",
+        "pages": 2,
+        "reviewed_pdf_pages": [
+          1,
+          2
+        ],
+        "evidence": "PDF-Seite 1 zeigt A/45/466, 8 September 1990, ORIGINAL: ENGLISH sowie den Titel und Report of the Secretary-General. Seite 2 ist mit English bezeichnet und behandelt die Antwort Israels vom 29. Juni 1990. Beide Seiten vollständig visuell geprüft.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Annual Report of the Department of Health 2007",
+      "symbol": "",
+      "date": "",
+      "url": "https://unispal.un.org/pdfs/UNRWAar_health2007.pdf",
+      "pdf_url": "https://unispal.un.org/pdfs/UNRWAar_health2007.pdf",
+      "language": "en",
+      "body": "UNRWA",
+      "author": "UNRWA · Department of Health",
+      "kind": "Annual report",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "palestine": [
+          "Offiziell von UNISPAL bereitgestellter UNRWA-Gesundheitsbericht. 2007 ist der Berichtszeitraum; ein unbestätigtes Veröffentlichungsdatum wird nicht daraus abgeleitet."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "UNRWA",
+        "Gesundheit",
+        "Flüchtlinge"
+      ],
+      "metadata_note": "Offiziell von UNISPAL bereitgestellter UNRWA-Gesundheitsbericht. 2007 ist der Berichtszeitraum; ein unbestätigtes Veröffentlichungsdatum wird nicht daraus abgeleitet.\nPDF-Prüfung vom 13.10.2026: Titel, UNRWA-Urheberschaft und Englisch am Original bestätigt. Das Jahr 2007 darf nicht als erfundenes Tagesdatum übernommen werden; date bleibt leer. Im überprüften Kopf kein UN-Dokumentsymbol erkennbar.",
+      "manual_review": {
+        "status": "language_verified",
+        "language": "en",
+        "sha256": "629f0f23db74d1e24de97d78b10bf13b21dfb653623a43eeadc85483050aec46",
+        "reviewed_on": "2026-10-13",
+        "method": "Gezielte Poppler-Seitenansichten visuell gelesen; vorhandene Textschicht ergänzend geprüft",
+        "pages": 139,
+        "reviewed_pdf_pages": [
+          2
+        ],
+        "evidence": "Titelseite PDF-Seite 2: United Nations Relief and Works Agency For Palestine Refugees in the Near East (UNRWA), Annual Report of the Department of Health 2007. Inhaltsverzeichnis und Fließtext der ersten acht Seiten Englisch. Keine datierte Veröffentlichungserklärung auf diesen Seiten; 2007 ist Berichtszeitraum.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Concluding observations on the initial report of Germany",
+      "date": "2015-05-13",
+      "symbol": "CRPD/C/DEU/CO/1",
+      "body": "Committee on the Rights of Persons with Disabilities",
+      "author": "Committee on the Rights of Persons with Disabilities",
+      "kind": "Abschließende Bemerkungen",
+      "language": "en",
+      "url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=JMn9cBi5qrsMIcnhHyItS4XoNiVrAz3l05d287ora0ZP5doPlVFHfPgl3zzgGdR8P2qQ%2B10dKWydvPjqC%2FEYhQ%3D%3D",
+      "pdf_url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=JMn9cBi5qrsMIcnhHyItS4XoNiVrAz3l05d287ora0ZP5doPlVFHfPgl3zzgGdR8P2qQ%2B10dKWydvPjqC%2FEYhQ%3D%3D",
+      "relations": {
+        "germany": true,
+        "israel": false,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "germany": [
+          "Deutschland ist Gegenstand des Dokuments CRPD/C/DEU/CO/1; Länderzuordnung durch Dokumenttitel und Berichtskopf."
+        ],
+        "israel": [],
+        "palestine": []
+      },
+      "tags": [
+        "Deutschland",
+        "Menschenrechte",
+        "Menschen mit Behinderungen",
+        "Diskriminierung"
+      ],
+      "metadata_note": "Titel, Dokumentnummer, Sprache und Datum anhand offizieller UN/OHCHR-Quellen geprüft. Datum ist das Veröffentlichungs-/Verteilungsdatum, nicht das Sitzungsdatum. ",
+      "manual_review": {
+        "sha256": "dbc813560b7dff5f74849ded88862ac9605eb7634d0a00987acf80debb526c59",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.230719+00:00",
+        "method": "Text aller Seiten extrahiert; Dokumentkopf und erste, mittlere sowie letzte Seite inhaltlich kontrolliert.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Concluding observations of the Human Rights Committee: Germany",
+      "date": "2004-05-04",
+      "symbol": "CCPR/CO/80/DEU",
+      "body": "Human Rights Committee",
+      "author": "Human Rights Committee",
+      "kind": "Abschließende Bemerkungen",
+      "language": "en",
+      "url": "https://digitallibrary.un.org/record/527929/files/CCPR_CO_80_DEU-EN.pdf",
+      "pdf_url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=ChkMVB1QQzLSR12uMcxHowylv%2Fo6NKFiky1owFGlT5jHf2Y%2FD83ELjIqkbwxu4pSMiBy9wShHR6Ib%2BgoBaU5jg%3D%3D",
+      "relations": {
+        "germany": true,
+        "israel": false,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "germany": [
+          "Deutschland ist Gegenstand des Dokuments CCPR/CO/80/DEU; Länderzuordnung durch Dokumenttitel und Berichtskopf."
+        ],
+        "israel": [],
+        "palestine": []
+      },
+      "tags": [
+        "Deutschland",
+        "Menschenrechte",
+        "Bürgerliche und politische Rechte"
+      ],
+      "metadata_note": "Titel, Dokumentnummer, Sprache und Datum anhand offizieller UN/OHCHR-Quellen geprüft. Datum ist das Veröffentlichungs-/Verteilungsdatum, nicht das Sitzungsdatum. ",
+      "manual_review": {
+        "sha256": "da71c831ff57abea7673fa29f5b22f98dfc2495b3fe94618f674d2f1a705a40a",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.230719+00:00",
+        "method": "Text aller Seiten extrahiert; Dokumentkopf und erste, mittlere sowie letzte Seite inhaltlich kontrolliert.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Fifth periodic report submitted under articles 16 and 17 of the International Covenant on Economic, Social and Cultural Rights: Germany",
+      "date": "2010-07-27",
+      "symbol": "E/C.12/DEU/5",
+      "body": "Committee on Economic, Social and Cultural Rights",
+      "author": "Federal Republic of Germany",
+      "kind": "Staatenbericht",
+      "language": "en",
+      "url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=%2FWh5Dcb09QlLNZM3yd8VnK2d2VRsZaASp1%2BuBxQYbwxBzX0aFbybuYIrgvxhIrgIGLLgUPdlv28ukk%2BC%2BXXgpw%3D%3D",
+      "pdf_url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=%2FWh5Dcb09QlLNZM3yd8VnK2d2VRsZaASp1%2BuBxQYbwxBzX0aFbybuYIrgvxhIrgIGLLgUPdlv28ukk%2BC%2BXXgpw%3D%3D",
+      "relations": {
+        "germany": true,
+        "israel": false,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "germany": [
+          "Deutschland ist Gegenstand des Dokuments E/C.12/DEU/5; Länderzuordnung durch Dokumenttitel und Berichtskopf."
+        ],
+        "israel": [],
+        "palestine": []
+      },
+      "tags": [
+        "Deutschland",
+        "Menschenrechte",
+        "Wirtschaft",
+        "Soziale Rechte",
+        "Staatenbericht"
+      ],
+      "metadata_note": "Englische Fassung der technischen Neuausgabe (Dokumentkopf E/C.12/DEU/5*, 27. Juli 2010). Original: French bezieht sich auf die Ausgangssprache, nicht auf die vorliegende Fassung; Berichtseingang am 16. September 2008. Anlagen laut Fußnote nur beim Sekretariat einsehbar und nicht Bestandteil der 70 Seiten.",
+      "manual_review": {
+        "sha256": "724f9bcf44fb91fa2e0cc56edbf8520a48a76b02e86143cefeb531b8ae61f3aa",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.230719+00:00",
+        "method": "Text aller Seiten extrahiert; Dokumentkopf und erste, mittlere sowie letzte Seite inhaltlich kontrolliert.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Concluding observations on the sixth periodic report of Germany",
+      "date": "2018-11-27",
+      "symbol": "E/C.12/DEU/CO/6",
+      "body": "Committee on Economic, Social and Cultural Rights",
+      "author": "Committee on Economic, Social and Cultural Rights",
+      "kind": "Abschließende Bemerkungen",
+      "language": "en",
+      "url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=SejvlD7B7Vh%2Bvw%2FfPAxWeVrp1%2BC0qdaPPypI6PBp%2FvBBm4wTg5qxJ%2BfC%2BC6VwunffOgMeEuptFZYjTgRoY7obg%3D%3D",
+      "pdf_url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=SejvlD7B7Vh%2Bvw%2FfPAxWeVrp1%2BC0qdaPPypI6PBp%2FvBBm4wTg5qxJ%2BfC%2BC6VwunffOgMeEuptFZYjTgRoY7obg%3D%3D",
+      "relations": {
+        "germany": true,
+        "israel": false,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "germany": [
+          "Deutschland ist Gegenstand des Dokuments E/C.12/DEU/CO/6; Länderzuordnung durch Dokumenttitel und Berichtskopf."
+        ],
+        "israel": [],
+        "palestine": []
+      },
+      "tags": [
+        "Deutschland",
+        "Menschenrechte",
+        "Wirtschaft",
+        "Soziale Rechte",
+        "Unternehmensverantwortung"
+      ],
+      "metadata_note": "Titel, Dokumentnummer, Sprache und Datum anhand offizieller UN/OHCHR-Quellen geprüft. Datum ist das Veröffentlichungs-/Verteilungsdatum, nicht das Sitzungsdatum.  Unabhängige offizielle Docstore-PDF-Fassung über Suchindex nachgewiesen; Downloadidentität zusätzlich prüfen.",
+      "manual_review": {
+        "sha256": "d2af8c3ba2cf21c8a6600c1a26f187ec619bcf7422812dca4e4b4b8b140bb3a9",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.230719+00:00",
+        "method": "Alle Seiten extrahiert; Kopf, Datum, Titel, erste, mittlere und letzte Seite geprüft; Seitenköpfe und englischer Fließtext stimmen.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Concluding observations on the combined fifth and sixth periodic reports of Germany",
+      "date": "2022-10-13",
+      "symbol": "CRC/C/DEU/CO/5-6",
+      "body": "Committee on the Rights of the Child",
+      "author": "Committee on the Rights of the Child",
+      "kind": "Abschließende Bemerkungen",
+      "language": "en",
+      "url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=SaZy4iry%2FZth91hYK8MlqHHBM5QAJHjDtp1nKRMGHG2zGCLJDTA0L8FeSFbGXe6%2FBjQIPEFnN3EYNmHEy62vhw%3D%3D",
+      "pdf_url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=SaZy4iry%2FZth91hYK8MlqHHBM5QAJHjDtp1nKRMGHG2zGCLJDTA0L8FeSFbGXe6%2FBjQIPEFnN3EYNmHEy62vhw%3D%3D",
+      "relations": {
+        "germany": true,
+        "israel": false,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "germany": [
+          "Deutschland ist Gegenstand des Dokuments CRC/C/DEU/CO/5-6; Länderzuordnung durch Dokumenttitel und Berichtskopf."
+        ],
+        "israel": [],
+        "palestine": []
+      },
+      "tags": [
+        "Deutschland",
+        "Menschenrechte",
+        "Kinderrechte"
+      ],
+      "metadata_note": "Titel, Dokumentnummer, Sprache und Datum anhand offizieller UN/OHCHR-Quellen geprüft. Datum ist das Veröffentlichungs-/Verteilungsdatum, nicht das Sitzungsdatum.  Unabhängige offizielle Docstore-PDF-Fassung über Suchindex nachgewiesen; Downloadidentität zusätzlich prüfen.",
+      "manual_review": {
+        "sha256": "7f7b850ad86d171820e7fc6bd550130e38a06270b0bb3773c3923963c61556e4",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.230719+00:00",
+        "method": "Alle Seiten extrahiert; Kopf, Datum, Titel, erste, mittlere und letzte Seite geprüft; Seitenköpfe und englischer Fließtext stimmen.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Concluding observations on the combined second and third periodic reports of Germany",
+      "date": "2023-10-03",
+      "symbol": "CRPD/C/DEU/CO/2-3",
+      "body": "Committee on the Rights of Persons with Disabilities",
+      "author": "Committee on the Rights of Persons with Disabilities",
+      "kind": "Abschließende Bemerkungen",
+      "language": "en",
+      "url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=eh9jWR%2BwQC02ELEGFjIxmwXIXWWS3pqA5ZFO5OZbTz5cD24bLEjkD0ecmNWPkaQAp8hYw%2BEMJsDtpGjEFWK3LQ%3D%3D",
+      "pdf_url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=eh9jWR%2BwQC02ELEGFjIxmwXIXWWS3pqA5ZFO5OZbTz5cD24bLEjkD0ecmNWPkaQAp8hYw%2BEMJsDtpGjEFWK3LQ%3D%3D",
+      "relations": {
+        "germany": true,
+        "israel": false,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "germany": [
+          "Deutschland ist Gegenstand des Dokuments CRPD/C/DEU/CO/2-3; Länderzuordnung durch Dokumenttitel und Berichtskopf."
+        ],
+        "israel": [],
+        "palestine": []
+      },
+      "tags": [
+        "Deutschland",
+        "Menschenrechte",
+        "Menschen mit Behinderungen",
+        "Diskriminierung"
+      ],
+      "metadata_note": "Titel, Dokumentnummer, Sprache und Datum anhand offizieller UN/OHCHR-Quellen geprüft. Datum ist das Veröffentlichungs-/Verteilungsdatum, nicht das Sitzungsdatum. Die deutsche Fassung ist bereits im Archiv; hier wird nur das englische Original ergänzt. Unabhängige offizielle Docstore-PDF-Fassung über Suchindex nachgewiesen; Downloadidentität zusätzlich prüfen.",
+      "manual_review": {
+        "sha256": "1fccd76be44f96efde66b45bc6dfaba4d914d7ed94994a8ec83a222e6d362335",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.230719+00:00",
+        "method": "Alle Seiten extrahiert; Kopf, Datum, Titel, erste, mittlere und letzte Seite geprüft; Seitenköpfe und englischer Fließtext stimmen.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Concluding observations on the combined twenty-third to twenty-sixth reports of Germany",
+      "date": "2023-12-21",
+      "symbol": "CERD/C/DEU/CO/23-26",
+      "body": "Committee on the Elimination of Racial Discrimination",
+      "author": "Committee on the Elimination of Racial Discrimination",
+      "kind": "Abschließende Bemerkungen",
+      "language": "en",
+      "url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=%2FRAektWDkd7HT3LhxC5afQNR%2FlnwQR%2FrNizcjs5sXkWpALkj%2BgqfMdbPX8Gz6K8tmHxV7BdnMtNrzIZSbotA3eOsiz6xEPf0KJL6E%2F7jpyg%3D",
+      "pdf_url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=%2FRAektWDkd7HT3LhxC5afQNR%2FlnwQR%2FrNizcjs5sXkWpALkj%2BgqfMdbPX8Gz6K8tmHxV7BdnMtNrzIZSbotA3eOsiz6xEPf0KJL6E%2F7jpyg%3D",
+      "relations": {
+        "germany": true,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [
+          "Deutschland ist Gegenstand des Dokuments CERD/C/DEU/CO/23-26; Länderzuordnung durch Dokumenttitel und Berichtskopf."
+        ],
+        "israel": [],
+        "palestine": [
+          "Absätze35–36 behandeln ausdrücklich palästinensische Solidaritätsdemonstrationen, Gaza und Meinungsfreiheit in Bezug auf Palästina in Deutschland."
+        ]
+      },
+      "tags": [
+        "Deutschland",
+        "Menschenrechte",
+        "Rassismus",
+        "Diskriminierung",
+        "Palästina",
+        "Versammlungsfreiheit"
+      ],
+      "metadata_note": "Titel, Dokumentnummer, Sprache und Datum anhand offizieller UN/OHCHR-Quellen geprüft. Datum ist das Veröffentlichungs-/Verteilungsdatum, nicht das Sitzungsdatum. Die deutsche Fassung ist bereits im Archiv; hier wird nur das englische Original ergänzt. Datum gemäß UN-Digital-Library-Katalog4033353 und Kopf der endgültigen Ausgabe. Unabhängige offizielle Docstore-PDF-Fassung über Suchindex nachgewiesen; Downloadidentität zusätzlich prüfen.",
+      "manual_review": {
+        "sha256": "88adbae90e358468ca6377803f818d9bffd30af29f767a5cfe0b8e760e3b75f7",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.230719+00:00",
+        "method": "Alle Seiten extrahiert; Kopf, Datum, Titel, erste, mittlere und letzte Seite geprüft; Seitenköpfe und englischer Fließtext stimmen.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Concluding observations on the combined nineteenth to twenty-second periodic reports of Germany",
+      "date": "2015-06-30",
+      "symbol": "CERD/C/DEU/CO/19-22",
+      "body": "Committee on the Elimination of Racial Discrimination",
+      "author": "Committee on the Elimination of Racial Discrimination",
+      "kind": "Abschließende Bemerkungen",
+      "language": "en",
+      "url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=FwBIdUEEbqNV1%2BtlCSZXXm90SaBGUwiSTxDhod2WAyUTnM4S8aI%2FRjBK5UYUczP5W6YEBeZhRo9a9%2BjwJbB0Gt0woLqEzjKg8pBnDuFh%2Fdk%3D",
+      "pdf_url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=FwBIdUEEbqNV1%2BtlCSZXXm90SaBGUwiSTxDhod2WAyUTnM4S8aI%2FRjBK5UYUczP5W6YEBeZhRo9a9%2BjwJbB0Gt0woLqEzjKg8pBnDuFh%2Fdk%3D",
+      "relations": {
+        "germany": true,
+        "israel": false,
+        "palestine": false
+      },
+      "relation_reasons": {
+        "germany": [
+          "Deutschland ist Gegenstand des Dokuments CERD/C/DEU/CO/19-22; Länderzuordnung durch Dokumenttitel und Berichtskopf."
+        ],
+        "israel": [],
+        "palestine": []
+      },
+      "tags": [
+        "Deutschland",
+        "Menschenrechte",
+        "Rassismus",
+        "Diskriminierung"
+      ],
+      "metadata_note": "Titel, Dokumentnummer, Sprache und Datum anhand offizieller UN/OHCHR-Quellen geprüft. Datum ist das Veröffentlichungs-/Verteilungsdatum, nicht das Sitzungsdatum. Endgültige Ausgabe 30.06.2015; nicht mit Advance Unedited Version vom 15.05.2015 verwechseln.",
+      "manual_review": {
+        "sha256": "fba3aa5c02d7adff1f4d5642e41d0b8d2337237250ab06745e4208039623168e",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.230719+00:00",
+        "method": "Alle Seiten extrahiert; Kopf, Datum, Titel, erste, mittlere und letzte Seite geprüft; Seitenköpfe und englischer Fließtext stimmen.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Report of the United Nations Fact-Finding Mission on the Gaza Conflict (Goldstone Report)",
+      "date": "2009-09-25",
+      "symbol": "A/HRC/12/48",
+      "body": "Human Rights Council",
+      "author": "United Nations Fact-Finding Mission on the Gaza Conflict · Chair: Richard Goldstone",
+      "kind": "Untersuchungsbericht",
+      "language": "en",
+      "url": "https://www.un.org/unispal/wp-content/uploads/2009/09/A.HRC_.12.48_250909.pdf",
+      "pdf_url": "https://www.un.org/unispal/wp-content/uploads/2009/09/A.HRC_.12.48_250909.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Untersuchung des Gaza-Konflikts und der Handlungen israelischer Streitkräfte."
+        ],
+        "palestine": [
+          "Untersuchungsgegenstand ist der Gaza-Konflikt."
+        ]
+      },
+      "tags": [
+        "Israel",
+        "Palästina",
+        "Gaza",
+        "Menschenrechte",
+        "Humanitäres Völkerrecht",
+        "Untersuchungskommission"
+      ],
+      "metadata_note": "Offizielle UNISPAL-PDF; Endfassung vom 25. September 2009, nicht die vorläufige Fassung vom 15. September.",
+      "manual_review": {
+        "sha256": "96dcc5f25477190a7fca01b54db5a68163f2e7a8afaca970a0704fdbfe1ae09a",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.231722+00:00",
+        "method": "Englischer Dokumentkopf, Kennung und Datum sowie Kommissionsbesetzung bis Seite 25 geprüft; alle 452 PDF-Seiten strukturell validiert.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Report of the international fact-finding mission on the Israeli attacks on the flotilla of ships carrying humanitarian assistance",
+      "date": "2010-09-27",
+      "symbol": "A/HRC/15/21",
+      "body": "Human Rights Council",
+      "author": "Independent International Fact-Finding Mission on the Incident of the Humanitarian Flotilla · Chair: Karl T. Hudson-Phillips",
+      "kind": "Untersuchungsbericht",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-187595/",
+      "pdf_url": "https://unispal.un.org/pdfs/ahrc1521.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Untersuchung der israelischen Angriffe auf die Hilfsflottille am 31. Mai 2010."
+        ],
+        "palestine": [
+          "Hilfslieferungen und Blockade des Gazastreifens sind zentrale Gegenstände."
+        ]
+      },
+      "tags": [
+        "Israel",
+        "Palästina",
+        "Gaza",
+        "Humanitäre Hilfe",
+        "Blockade",
+        "Humanitäres Völkerrecht"
+      ],
+      "metadata_note": "Titel, Datum und Dokumentkennung aus offizieller UN-Dokumentbeschreibung; PDF einschließlich Anlagen.",
+      "manual_review": {
+        "sha256": "df64870435b409bde3667ca191de3540d833ab8c2f6fec085085e21129a5766d",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.231722+00:00",
+        "method": "Englischer Dokumentkopf, Dokumentkennung, Ausgabedatum und erste acht Seiten mit Auftrag und Kommissionsbesetzung geprüft; vollständige PDF-Struktur validiert.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Report of the independent commission of inquiry established pursuant to Human Rights Council resolution S-21/1",
+      "date": "2015-06-24",
+      "symbol": "A/HRC/29/52",
+      "body": "Human Rights Council",
+      "author": "Independent Commission of Inquiry on the 2014 Gaza Conflict · Chair: Mary McGowan Davis",
+      "kind": "Untersuchungsbericht",
+      "language": "en",
+      "url": "https://unispal.un.org/pdfs/D9B813BA823BF05585257E6C004E12EF.pdf",
+      "pdf_url": "https://unispal.un.org/pdfs/D9B813BA823BF05585257E6C004E12EF.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Untersuchung des bewaffneten Konflikts von 2014 und seiner Auswirkungen in Israel."
+        ],
+        "palestine": [
+          "Untersuchung des Konflikts von 2014 in Gaza und dem besetzten palästinensischen Gebiet."
+        ]
+      },
+      "tags": [
+        "Israel",
+        "Palästina",
+        "Gaza",
+        "Menschenrechte",
+        "Humanitäres Völkerrecht",
+        "Untersuchungskommission"
+      ],
+      "metadata_note": "Bericht zur Untersuchung des Gaza-Konflikts 2014; separates Dokument zum ausführlichen Bericht A/HRC/29/CRP.4.",
+      "manual_review": {
+        "sha256": "e102ff9d9a4122012ad0217769c75c444a4f81ea57e8d46c362f945dd682ebd0",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.231722+00:00",
+        "method": "Englischer Dokumentkopf, Dokumentkennung, Ausgabedatum und erste acht Seiten mit Auftrag und Kommissionsbesetzung geprüft; vollständige PDF-Struktur validiert.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Report of the detailed findings of the independent commission of inquiry on the 2014 Gaza conflict",
+      "date": "2015-06-22",
+      "symbol": "A/HRC/29/CRP.4",
+      "body": "Human Rights Council",
+      "author": "Independent Commission of Inquiry on the 2014 Gaza Conflict · Chair: Mary McGowan Davis",
+      "kind": "Untersuchungsbericht",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-178649/",
+      "pdf_url": "https://www.un.org/unispal/wp-content/uploads/2015/06/cb361dbaf1526e5785257e6c004b1e94_20150622%20--%20OHCHR%20Report%20on%20Palestine%20%5BA_HRC_CRP_4%5D.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Untersuchung des bewaffneten Konflikts von 2014 und seiner Auswirkungen in Israel."
+        ],
+        "palestine": [
+          "Ausführliche Untersuchung des Konflikts von 2014 in Gaza und dem besetzten palästinensischen Gebiet."
+        ]
+      },
+      "tags": [
+        "Israel",
+        "Palästina",
+        "Gaza",
+        "Menschenrechte",
+        "Humanitäres Völkerrecht",
+        "Untersuchungskommission"
+      ],
+      "metadata_note": "Offizielle UNISPAL-PDF mit ausführlichen Feststellungen. Datum 22. Juni 2015 aus der zugehörigen Dokumentseite; die Titelseite dieser Fassung zeigt keinen Datumsblock. A/HRC/29/CRP.4 steht in den folgenden Seitenköpfen.",
+      "manual_review": {
+        "sha256": "6164ff36240eedc1854b43af5ae041e00a670f7c4e5ea5026109abe824e48ca6",
+        "language": "en",
+        "status": "language_verified_scan",
+        "reviewed_at": "2026-10-20T09:17:24.231722+00:00",
+        "method": "Englischer Text, Titel, Dokumentkennung in Seitenköpfen und Kommissionsbesetzung geprüft; Datum 22. Juni 2015 aus der offiziellen UNISPAL-Dokumentseite. Titelseite zusätzlich visuell geprüft.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Report of the independent international commission of inquiry on the protests in the Occupied Palestinian Territory",
+      "date": "2019-03-06",
+      "symbol": "A/HRC/40/74",
+      "body": "Human Rights Council",
+      "author": "Independent International Commission of Inquiry on the Protests in the Occupied Palestinian Territory · Chair: Santiago Canton",
+      "kind": "Untersuchungsbericht",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/human-rights-council-report-of-the-independent-international-commission-of-inquiry-on-the-protests-in-the-opt-a-hrc-40-74/",
+      "pdf_url": "https://www.un.org/unispal/wp-content/uploads/2019/06/A.HRC_.40.74.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Gegenstand sind die Reaktionen israelischer Sicherheitskräfte auf die Proteste 2018."
+        ],
+        "palestine": [
+          "Gegenstand sind die Gaza-Proteste zwischen 30. März und 31. Dezember 2018."
+        ]
+      },
+      "tags": [
+        "Israel",
+        "Palästina",
+        "Gaza",
+        "Menschenrechte",
+        "Proteste",
+        "Untersuchungskommission"
+      ],
+      "metadata_note": "Veröffentlichungsdatum aus dem Dokumentkopf: 6. März 2019. Der 18. März auf der UNISPAL-Seite ist nicht das PDF-Ausgabedatum.",
+      "manual_review": {
+        "sha256": "be1c3547f5f8678c36841b953dd4757f6312169741a5789184da32fbdc424d4d",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.231722+00:00",
+        "method": "Englischer Dokumentkopf, Dokumentkennung, Ausgabedatum und erste acht Seiten mit Auftrag und Kommissionsbesetzung geprüft; vollständige PDF-Struktur validiert.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Report of the Director of UNRWA: Report of the Ad Hoc Political Committee",
+      "date": "1952-11-03",
+      "symbol": "A/2246",
+      "body": "General Assembly",
+      "author": "General Assembly Ad Hoc Political Committee",
+      "kind": "Bericht",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/report-of-the-director-of-the-united-nations-relief-and-works-agency-for-palestine-refugees-in-the-near-east-report-of-the-ad-hoc-political-committee/",
+      "pdf_url": "https://www.un.org/unispal/wp-content/uploads/2025/06/n5211206.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Expliziter Palästina-/UNRWA-Bezug im Dokumenttitel und im offiziellen UNISPAL-Datensatz."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "UNRWA",
+        "Flüchtlinge"
+      ],
+      "metadata_note": "A/2246 vom 3. November 1952. Bericht des Ad Hoc Political Committee über den Bericht des UNRWA-Direktors; nicht der Jahresbericht des Direktors selbst. Historischer Scan mit fehlerhafter vorhandener OCR.",
+      "manual_review": {
+        "sha256": "f5c856765a52e68d566a737dae7d4603d5bf1ff6ffb2882def6b9105c58baf06",
+        "language": "en",
+        "status": "language_verified_scan",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Dokumentkopf und Titel des historischen Scans visuell geprüft; vorhandenen Textauszug abgeglichen.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Question of Palestine and observer status for the PLO: General Assembly resolutions 3236 and 3237 (XXIX)",
+      "date": "1974-11-22",
+      "symbol": "A/RES/3236 (XXIX)",
+      "body": "General Assembly",
+      "author": "General Assembly",
+      "kind": "Resolution",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-177305/",
+      "pdf_url": "https://www.un.org/unispal/wp-content/uploads/2016/05/ARES3236XXIX.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Expliziter Palästina-/UNRWA-Bezug im Dokumenttitel und im offiziellen UNISPAL-Datensatz."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "Selbstbestimmung",
+        "Rückkehrrecht"
+      ],
+      "metadata_note": "Die einzelne gescannte Seite enthält die vollständigen Resolutionen 3236 und 3237 (XXIX), beide vom 22. November 1974, sowie den Schluss einer vorhergehenden Resolution. Kein nutzbarer Textlayer; derzeit über Metadaten auffindbar.",
+      "manual_review": {
+        "sha256": "4e846e81cb7b621171bd66a46b36ca71d0f8755d11bb51dd4c71ea5dc1757cbe",
+        "language": "en",
+        "status": "language_verified_scan",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Gesamte einzelne Scan-Seite visuell gelesen: beide Resolutionen und ihre Beschlussdaten bestätigt.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Assistance to the Palestinian people: Report of the Secretary-General",
+      "date": "1977-06-22",
+      "symbol": "E/6005",
+      "body": "Economic and Social Council",
+      "author": "Secretary-General",
+      "kind": "Bericht",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-183704/",
+      "pdf_url": "https://unispal.un.org/pdfs/E6005.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Expliziter Palästina-/UNRWA-Bezug im Dokumenttitel und im offiziellen UNISPAL-Datensatz."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "Humanitäre Hilfe",
+        "Wirtschaft"
+      ],
+      "metadata_note": "E/6005, 22 June 1977; englische Fassung. Originalsprachangabe im Dokument: English/French. Historischer Scan mit vorhandener OCR.",
+      "manual_review": {
+        "sha256": "765cb1169c0d96dff72c373f295f527b6b999b83b0538ba95aeacdac1f81ad18",
+        "language": "en",
+        "status": "language_verified_scan",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Dokumentkopf des Scans visuell geprüft; englischen Text und letzten Seitenauszug kontrolliert.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "First United Nations Seminar on the Question of Palestine: Arusha, 14–18 July 1980 (report and papers)",
+      "date": "",
+      "symbol": "80-1",
+      "body": "CEIRPP / Division for Palestinian Rights",
+      "author": "Committee on the Exercise of the Inalienable Rights of the Palestinian People; Division for Palestinian Rights",
+      "kind": "Bericht",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-193667/",
+      "pdf_url": "https://unispal.un.org/pdfs/80-1.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Expliziter Palästina-/UNRWA-Bezug im Dokumenttitel und im offiziellen UNISPAL-Datensatz."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "Selbstbestimmung",
+        "Flüchtlinge"
+      ],
+      "metadata_note": "Der gemeinsame Umschlag nennt Arusha und Wien. Die vorliegende Datei enthält den Arusha-Teil mit Bericht, Beiträgen und Teilnehmerliste, insgesamt 190 PDF-Seiten bis zur gedruckten Seite 184. Der Wien-Teil ist nicht Bestandteil dieser Datei. Das bisherige Datum 18. Juli 1980 bezeichnet das Ende des Arusha-Seminars; ein genaues Ausgabedatum ist im geprüften Dokument nicht belegt.",
+      "manual_review": {
+        "sha256": "65336308ed204f12264c62d9d7cd031119539fb574fba23b675d7b273c5c8031",
+        "language": "en",
+        "status": "language_verified_scan",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Umschlag und Inhaltsverzeichnis visuell geprüft; englische Textauszüge und Schluss der Arusha-Teilnehmerliste auf PDF-Seite 190 kontrolliert.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Future government of Palestine: Report of Sub-Committee 2 of the Ad Hoc Committee on the Palestinian Question",
+      "date": "1947-11-11",
+      "symbol": "A/AC.14/32",
+      "body": "General Assembly",
+      "author": "General Assembly Ad Hoc Committee on the Palestinian Question, Sub-Committee 2",
+      "kind": "Bericht",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-185470/",
+      "pdf_url": "https://unispal.un.org/pdfs/AAC1432.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Expliziter Palästina-/UNRWA-Bezug im Dokumenttitel und im offiziellen UNISPAL-Datensatz."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "UNSCOP",
+        "Geschichte"
+      ],
+      "metadata_note": "A/AC.14/32 vom 11. November 1947. Archivvorsatz auf PDF-Seite 1; englischer Original-Dokumentkopf auf PDF-Seite 2. 69 PDF-Seiten einschließlich Karte. Historischer Scan mit vorhandener OCR.",
+      "manual_review": {
+        "sha256": "2528b456d5bd5b73347f12eaa6e7b6166a9e780456568e5ed74751c11e8d272f",
+        "language": "en",
+        "status": "language_verified_scan",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Archivvorsatz und eigentlichen Dokumentkopf auf PDF-Seite 2 visuell geprüft; englische Textauszüge und letzte Karten-Seite kontrolliert.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Israel and USSR responses to UNCCP proposals on Jerusalem: Summary record of the 147th meeting",
+      "date": "1950-04-26",
+      "symbol": "A/AC.25/SR.147",
+      "body": "UNCCP",
+      "author": "United Nations Conciliation Commission for Palestine",
+      "kind": "Sitzungsprotokoll",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-210737/",
+      "pdf_url": "https://unispal.un.org/pdfs/AAC25SR147.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Expliziter Israel-Bezug im Dokumenttitel."
+        ],
+        "palestine": [
+          "Expliziter Palästina-/UNRWA-Bezug im Dokumenttitel und im offiziellen UNISPAL-Datensatz."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "Jerusalem",
+        "UNCCP"
+      ],
+      "metadata_note": "A/AC.25/SR.147 vom 26. April 1950. Englische Fassung; Originalsprache Französisch. Zwei PDF-Seiten. Historischer Scan mit vorhandener OCR.",
+      "manual_review": {
+        "sha256": "7ebbe68f9f78605154ddc10b22c2ad51ccbd543740a982e1abfddd2451e8b7c9",
+        "language": "en",
+        "status": "language_verified_scan",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Dokumentkopf visuell geprüft und englischen Text beider PDF-Seiten abgeglichen.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Blocked accounts, UNRWA assistance and Arab refugee property in Israel: UNCCP 292nd meeting (23 October 1952)",
+      "date": "1952-11-05",
+      "symbol": "A/AC.25/SR.292",
+      "body": "UNCCP",
+      "author": "United Nations Conciliation Commission for Palestine",
+      "kind": "Sitzungsprotokoll",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-211820/",
+      "pdf_url": "https://unispal.un.org/pdfs/AAC25SR292.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Expliziter Israel-Bezug im Dokumenttitel."
+        ],
+        "palestine": [
+          "Expliziter Palästina-/UNRWA-Bezug im Dokumenttitel und im offiziellen UNISPAL-Datensatz."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "UNRWA",
+        "Eigentum",
+        "Flüchtlinge"
+      ],
+      "metadata_note": "A/AC.25/SR.292: Dokumentkopf datiert 5. November 1952; die protokollierte Sitzung fand am 23. Oktober 1952 statt. Englisches Original. Historischer Scan mit vorhandener OCR.",
+      "manual_review": {
+        "sha256": "165730559007e3dc646144b254b40e5db0274f0cca0120382a9db015a03aa408",
+        "language": "en",
+        "status": "language_verified_scan",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Dokumentkopf und Datum visuell geprüft; englische Textauszüge einschließlich Sitzungsangaben abgeglichen.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "25 Ways to Help Palestine Refugees (July–December 2010)",
+      "date": "",
+      "symbol": "",
+      "body": "UNRWA",
+      "author": "UNRWA",
+      "kind": "Bericht",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-204745/",
+      "pdf_url": "https://unispal.un.org/pdfs/UNRWA_25Ways.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Expliziter Palästina-/UNRWA-Bezug im Dokumenttitel und im offiziellen UNISPAL-Datensatz."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "UNRWA",
+        "Humanitäre Hilfe"
+      ],
+      "metadata_note": "Englische UNRWA-Projektbroschüre für Juli bis Dezember 2010. Der Umschlag belegt den Zeitraum, aber kein genaues Veröffentlichungsdatum. Der bisherige Ansatz 1. Juli 2010 wird nicht als bestätigtes Ausgabedatum übernommen. Die UNISPAL-Ablagekennung entspricht dem Dateinamen; im PDF ist keine amtliche UN-Dokumentkennung ausgewiesen.",
+      "manual_review": {
+        "sha256": "98d8985af8d3688fa84b9bf4df49e417a2dec991428180da8a1d31540f8f2dc3",
+        "language": "en",
+        "status": "language_verified_scan",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Umschlag visuell geprüft; englischen Textauszug am Anfang und Ende kontrolliert.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Israeli settlements: Security Council resolution 446 (1979)",
+      "date": "1979-03-22",
+      "symbol": "S/RES/446 (1979)",
+      "body": "Security Council",
+      "author": "Security Council",
+      "kind": "Resolution",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-184805/",
+      "pdf_url": "https://unispal.un.org/pdfs/BA123CDED3EA84A5852560E50077C2DC.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Resolution behandelt ausdrücklich israelische Maßnahmen im besetzten Gebiet."
+        ],
+        "palestine": [
+          "Resolution zur Palästinafrage; Datum, Inhalt und Symbol im offiziellen UNISPAL-Datensatz."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "Israel",
+        "Siedlungen"
+      ],
+      "metadata_note": "Offizielle englische PDF-Wiedergabe von S/RES/446 (1979) im UNISPAL-Archiv, 22. März 1979; zwei PDF-Seiten.",
+      "manual_review": {
+        "sha256": "842b869cb02c6b289a37dbaa9587ec03069439809e9e6bf4f3e1ecbc16c436d4",
+        "language": "en",
+        "status": "language_verified_scan",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Dokumentkopf und erste Seite visuell geprüft; englischen Text beider PDF-Seiten abgeglichen.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Israeli settlements: Security Council resolution 465 (1980)",
+      "date": "1980-03-01",
+      "symbol": "S/RES/465 (1980)",
+      "body": "Security Council",
+      "author": "Security Council",
+      "kind": "Resolution",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-183760/",
+      "pdf_url": "https://unispal.un.org/pdfs/5AA254A1C8F8B1CB852560E50075D7D5.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Resolution behandelt ausdrücklich israelische Maßnahmen im besetzten Gebiet."
+        ],
+        "palestine": [
+          "Resolution zur Palästinafrage; Datum, Inhalt und Symbol im offiziellen UNISPAL-Datensatz."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "Israel",
+        "Siedlungen"
+      ],
+      "metadata_note": "Offizielle englische PDF-Wiedergabe von S/RES/465 (1980) im UNISPAL-Archiv, 1. März 1980; zwei PDF-Seiten.",
+      "manual_review": {
+        "sha256": "f6cf4af7dc4cec97cc05a863fbf95751755e42acfb7a43638c3536c0744e6438",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Englischen Text beider PDF-Seiten einschließlich Dokumentkopf, Nummer und Beschlussdatum geprüft.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Jerusalem: Security Council resolution 478 (1980)",
+      "date": "1980-08-20",
+      "symbol": "S/RES/478 (1980)",
+      "body": "Security Council",
+      "author": "Security Council",
+      "kind": "Resolution",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-187506/",
+      "pdf_url": "https://unispal.un.org/pdfs/DDE590C6FF232007852560DF0065FDDB.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Resolution behandelt ausdrücklich israelische Maßnahmen im besetzten Gebiet."
+        ],
+        "palestine": [
+          "Resolution zur Palästinafrage; Datum, Inhalt und Symbol im offiziellen UNISPAL-Datensatz."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "Israel",
+        "Siedlungen"
+      ],
+      "metadata_note": "Offizielle englische PDF-Wiedergabe von S/RES/478 (1980) im UNISPAL-Archiv, 20. August 1980; zwei PDF-Seiten.",
+      "manual_review": {
+        "sha256": "d7774905434ec5aa1f8e7540d891746f437bdd9d1834aee6d75bf08421521480",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Englischen Text beider PDF-Seiten einschließlich Dokumentkopf, Nummer und Beschlussdatum geprüft.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Israeli settlements: Security Council resolution 2334 (2016)",
+      "date": "2016-12-23",
+      "symbol": "S/RES/2334 (2016)",
+      "body": "Security Council",
+      "author": "Security Council",
+      "kind": "Resolution",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/unsc-resolution-2334-illegality-israeli-settlements/",
+      "pdf_url": "https://unispal.un.org/pdfs/6E628F30062A868385258096005D36BE.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Resolution behandelt ausdrücklich israelische Maßnahmen im besetzten Gebiet."
+        ],
+        "palestine": [
+          "Resolution zur Palästinafrage; Datum, Inhalt und Symbol im offiziellen UNISPAL-Datensatz."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "Israel",
+        "Siedlungen"
+      ],
+      "metadata_note": "Offizielle englische PDF-Wiedergabe von S/RES/2334 (2016) im UNISPAL-Archiv, 23. Dezember 2016; zwei PDF-Seiten.",
+      "manual_review": {
+        "sha256": "d881f7ab8d29c05f6e1e85bd956f35327dadf28283df0ea23442818c23db9ce7",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Englischen Text beider PDF-Seiten einschließlich Dokumentkopf, Nummer und Beschlussdatum geprüft.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Question of Palestine: Establishment of the Committee on the Exercise of the Inalienable Rights of the Palestinian People",
+      "date": "1975-11-10",
+      "symbol": "A/RES/3376 (XXX)",
+      "body": "General Assembly",
+      "author": "General Assembly",
+      "kind": "Resolution",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-183010/",
+      "pdf_url": "https://unispal.un.org/pdfs/B5B4720B8192FDE3852560DE004F3C47.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Resolution zur Palästinafrage; Datum, Inhalt und Symbol im offiziellen UNISPAL-Datensatz."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "Selbstbestimmung"
+      ],
+      "metadata_note": "Offizielle englische PDF-Wiedergabe von A/RES/3376 (XXX) im UNISPAL-Archiv, 10. November 1975; zwei PDF-Seiten.",
+      "manual_review": {
+        "sha256": "221157119e7f153a3f3162dabdff85f52882eb9a125302ef2254b1bf963cc871",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Englischen Text beider PDF-Seiten einschließlich Dokumentkopf, Nummer und Beschlussdatum geprüft.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "UNRWA in 2005",
+      "date": "",
+      "symbol": "",
+      "body": "UNRWA",
+      "author": "UNRWA",
+      "kind": "Jahresbericht",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-209112/",
+      "pdf_url": "https://unispal.un.org/pdfs/unrwa_in_2005.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "UNRWA-Jahresbericht über Leistungen für Palästinaflüchtlinge in den fünf Einsatzgebieten."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "UNRWA",
+        "Humanitäre Hilfe"
+      ],
+      "metadata_note": "Englischer Überblick über die UNRWA-Aktivitäten des Jahres 2005; 31 PDF-Seiten. Der Berichtstitel belegt das Berichtsjahr, aber kein genaues Ausgabedatum. Der bisherige Ansatz 31. Dezember 2005 wird nicht als bestätigtes Veröffentlichungsdatum übernommen. Die UNISPAL-Ablagekennung entspricht dem Dateinamen; im PDF ist keine amtliche UN-Dokumentkennung ausgewiesen.",
+      "manual_review": {
+        "sha256": "c0b243b757690118ef4e594510a6c091b801be55f23da0363b689de5049d6a12",
+        "language": "en",
+        "status": "language_verified_scan",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Umschlag visuell geprüft; Inhaltsverzeichnis und englischen Fließtext der ersten acht PDF-Seiten kontrolliert.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "2014 occupied Palestinian territory Emergency Appeal: Annual Report (including the 2014 Gaza Flash Appeal report)",
+      "date": "",
+      "symbol": "",
+      "body": "UNRWA",
+      "author": "UNRWA, Department of Planning",
+      "kind": "Jahresbericht",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/auto-insert-200732/",
+      "pdf_url": "https://unispal.un.org/pdfs/UNRWAEMERAPPEAL_2014.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "UNRWA-Jahresbericht über Leistungen für Palästinaflüchtlinge in den fünf Einsatzgebieten."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "UNRWA",
+        "Gaza",
+        "Humanitäre Hilfe"
+      ],
+      "metadata_note": "Englischer Jahresbericht über den Zeitraum 1. Januar bis 31. Dezember 2014; das Impressum nennt © UNRWA 2015. Ein genaues Veröffentlichungsdatum ist nicht belegt. 63 PDF-Seiten. Im extrahierten PDF-Text kann die Wortfolge stellenweise umgekehrt sein; visuell ist der englische Text korrekt lesbar. Die UNISPAL-Ablagekennung entspricht dem Dateinamen; im PDF ist keine amtliche UN-Dokumentkennung ausgewiesen.",
+      "manual_review": {
+        "sha256": "926ef15e8cd70846b235f8f196db0e7d3168004f8f24b724a73e60144366bc2d",
+        "language": "en",
+        "status": "language_verified_scan",
+        "reviewed_at": "2026-10-20T09:17:24.232726+00:00",
+        "method": "Umschlag und Impressum visuell geprüft; englischen Text der ersten acht PDF-Seiten kontrolliert. Berichtszeitraum 2014 und Copyright 2015 direkt bestätigt.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Report of the Secretary-General on the implementation of Security Council resolution 2334 (2016) · Briefing by Ramiz Alakbarov",
+      "date": "2026-09-28",
+      "symbol": "",
+      "body": "UNSCO · Security Council",
+      "author": "Ramiz Alakbarov · Acting Special Coordinator for the Middle East Peace Process",
+      "kind": "Briefing · Rede",
+      "language": "en",
+      "url": "https://unsco.unmissions.org/en/news/security-council-briefing-28-september-2026-unscr-2334",
+      "pdf_url": "https://unsco.unmissions.org/sites/default/files/2026-09/security_council_briefing_2334_-_28_september_2026.pdf",
+      "relations": {
+        "germany": false,
+        "israel": true,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [
+          "Bericht und Rede zur Umsetzung von S/RES/2334 (2016), ausdrücklich zu israelischen Siedlungsaktivitäten, Regierungspolitik und Handlungen im besetzten palästinensischen Gebiet."
+        ],
+        "palestine": [
+          "Behandelt Gaza, Westbank einschließlich Ostjerusalem, palästinensische Bevölkerung, Palästinensische Autonomiebehörde und UNRWA."
+        ]
+      },
+      "tags": [
+        "Israel",
+        "Palästina",
+        "Gaza",
+        "Westbank",
+        "Ostjerusalem",
+        "Siedlungen",
+        "UNRWA",
+        "Menschenrechte",
+        "Humanitäre Hilfe"
+      ],
+      "metadata_note": "Original-PDF der offiziellen UNSCO-Webseite; Rede zur Vorstellung des 39. Berichts über die Umsetzung von S/RES/2334 (2016), Berichtszeitraum 13. Juni bis 18. September 2026. S/RES/2334 ist die behandelte Resolution, nicht das eigene Dokumentzeichen dieser Rede. Sprecher und Datum auf UNSCO und DPPA bestätigt. Am 20.10.2026 alle 9 Textseiten des Originals mit den offiziellen UNISPAL-, DPPA- und UNSCO-Webfassungen verglichen: vollständige Übereinstimmung des Redetexts bis auf Listennummerierung und einen HTML-Tippfehler.",
+      "manual_review": {
+        "sha256": "f426a2e94ab2beb3243d8f855b5d3c6cd964efa2f9c02eb47f657e0de938f348",
+        "language": "en",
+        "status": "language_verified",
+        "reviewed_at": "2026-10-20T09:17:24.233729+00:00",
+        "method": "Alle neun Seiten mit den vollständigen offiziellen Webfassungen von UNISPAL, DPPA und UNSCO abgeglichen.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Annual report of the Director of UNRWA, 1 July 1958–30 June 1959",
+      "date": "",
+      "symbol": "A/4213",
+      "body": "General Assembly · UNRWA",
+      "author": "Director of UNRWA",
+      "kind": "Jahresbericht",
+      "language": "en",
+      "url": "https://digitallibrary.un.org/record/715960",
+      "pdf_url": "https://digitallibrary.un.org/record/715960/files/A_4213-EN.pdf",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Jahresbericht des UN-Hilfswerks für Palästinaflüchtlinge (UNRWA), Berichtszeitraum 1958–1959."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "UNRWA",
+        "Flüchtlinge",
+        "Humanitäre Hilfe"
+      ],
+      "metadata_note": "Offizieller UN-Katalog nennt Publikationsjahr 1959, keinen genauen Ausgabetag. Nicht mit A/42/13 (1987) verwechseln. Identität am Original zu prüfen.",
+      "manual_review": {
+        "status": "language_verified_scan",
+        "sha256": "0b2e6b48d345940d736eed863af0c35cc05edca3ad07193ef9e116ba10d9fe3b",
+        "language": "en",
+        "reviewed_at": "2026-10-20T10:08:25.237121+00:00",
+        "pages": 44,
+        "method": "Alle 44 Seiten geöffnet, gerendert und visuell geprüft; vollständige gedruckte Seitenfolge und Karte bestätigt.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Participation by the State of Palestine during the eighty-first session",
+      "date": "2026-09-15",
+      "symbol": "A/81/L.2",
+      "body": "General Assembly",
+      "author": "State of Palestine",
+      "kind": "Resolutionsentwurf",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/general-assembly-draft-resolution-participation-by-the-state-of-palestine-during-the-eighty-first-session-a-81-l-2/",
+      "pdf_url": "https://docs.un.org/A/81/L.2",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Ausdrücklicher Gegenstand ist die Teilnahme des Staates Palästina an der 81. Tagung der Generalversammlung."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "Generalversammlung",
+        "Diplomatie",
+        "Vereinte Nationen"
+      ],
+      "metadata_note": "Kennung, englische Sprache, Datum, Titel, Urheber und beide Seiten einschließlich Fußnoten am Original-PDF geprüft.",
+      "manual_review": {
+        "status": "language_verified",
+        "sha256": "a1278f86b80ff2c63d3285aad6db154714a24be1c3ca18762c6cd5f6b736ce69",
+        "language": "en",
+        "reviewed_at": "2026-10-20T10:08:25.237121+00:00",
+        "pages": 2,
+        "method": "Original-PDF geöffnet, Seitenzahl und vollständige Textschicht geprüft; Kopf- und Schlussseiten visuell geprüft.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    },
+    {
+      "title": "Participation by the State of Palestine during the eighty-first session",
+      "date": "2026-09-21",
+      "symbol": "A/RES/81/1",
+      "body": "General Assembly",
+      "author": "General Assembly",
+      "kind": "Resolution",
+      "language": "en",
+      "url": "https://www.un.org/unispal/document/general-assembly-resolution-participation-by-the-state-of-palestine-during-the-eighty-first-session-a-res-81-1/",
+      "pdf_url": "https://docs.un.org/A/RES/81/1",
+      "relations": {
+        "germany": false,
+        "israel": false,
+        "palestine": true
+      },
+      "relation_reasons": {
+        "germany": [],
+        "israel": [],
+        "palestine": [
+          "Ausdrücklicher Gegenstand ist die Teilnahme des Staates Palästina an der 81. Tagung der Generalversammlung."
+        ]
+      },
+      "tags": [
+        "Palästina",
+        "Generalversammlung",
+        "Diplomatie",
+        "Vereinte Nationen"
+      ],
+      "metadata_note": "Kennung, englische Sprache, Datum, Titel, Urheber und beide Seiten einschließlich Fußnoten am Original-PDF geprüft.",
+      "manual_review": {
+        "status": "language_verified",
+        "sha256": "51ff9954078f8d3cc8d679d226f2eb34c7ce33960aeaa0fcf9010c44160c2b84",
+        "language": "en",
+        "reviewed_at": "2026-10-20T10:08:25.237121+00:00",
+        "pages": 2,
+        "method": "Original-PDF geöffnet, Seitenzahl und vollständige Textschicht geprüft; Kopf- und Schlussseiten visuell geprüft.",
+        "caveat": "Vorprüfung der öffentlichen Originalquelle. Gilt ausschließlich für die angegebene SHA-256-Fassung; enthält keine Aussage über den lokalen Bestand dieser Installation. Bei geändertem Inhalt erneut prüfen."
+      }
+    }
+  ],
+  "discovery": {
+    "special_procedures": {
+      "sources": [
+        {
+          "url": "https://spcommreports.ohchr.org/TmSearch/Mandates?m=22",
+          "label": "Mandat zum Recht auf Nahrung; Deutschland-/Israel-Bezug in Adressat oder Sachverhalt",
+          "max_documents": 150
+        }
+      ]
+    },
+    "ocha": {
+      "url": "https://www.ochaopt.org/publications",
+      "max_documents": 9
+    },
+    "unispal": {
+      "per_page": 60,
+      "max_pages": 1,
+      "max_documents": 20
+    },
+    "german": {
+      "urls": [
+        "https://www.un.org/german/de/dokumentenbibliothek?search_api_fulltext=Deutschland",
+        "https://www.un.org/german/de/dokumentenbibliothek?search_api_fulltext=Deutschlands",
+        "https://www.un.org/german/de/dokumentenbibliothek?search_api_fulltext=Israel",
+        "https://www.un.org/german/de/dokumentenbibliothek?search_api_fulltext=Gaza",
+        "https://www.un.org/german/de/dokumentenbibliothek?search_api_fulltext=Pal%C3%A4stina"
+      ],
+      "max_pages": 1,
+      "max_documents": 20,
+      "max_documents_per_source": 4
+    }
+  },
+  "coverage_notes": [
+    "Öffentliche Startkonfiguration für eine neue lokale Sammlung. Das Codepaket enthält keine archivierten Dokumente.",
+    "Ausgewählte historische Kernquellen ab 1947 sowie laufende Quellenlisten; keine lückenlose historische Gesamterfassung.",
+    "Deutschland und Israel sind jeweils einschließlich gemeinsamer Bezüge; UND verlangt beide, ODER mindestens einen. Palästina, Gaza, Westbank und UNRWA bilden einen zusätzlichen überlappenden Themenbereich.",
+    "Aufgenommen werden englische und vorhandene deutsche Fassungen. Es werden keine Übersetzungen erzeugt.",
+    "Quellenlisten werden begrenzt abgefragt. Die Obergrenzen stehen unter discovery in UN/data/sources.json. Das gesonderte UNRWA-Portal ist nicht vollständig erschlossen.",
+    "Die UN Digital Library kann automatische Abrufe ablehnen. UN-ODS wird bei Sperre in robots.txt nicht automatisiert abgerufen. Unerreichbare Quellen bleiben als Lücken sichtbar.",
+    "Bei Aktualisierungen bleiben vorhandene Dokumente, frühere Fassungen und eigene Angaben erhalten. Frühere Quellenprüfungen im Manifest ersetzen keine erfolgreiche lokale Übernahme.",
+    "Historische Scans ohne Textschicht sind über ihre Metadaten suchbar. Automatische OCR ist nicht Bestandteil dieser Anwendung."
+  ],
+  "source_resolutions": [
+    {
+      "source_url": "https://www.un.org/unispal/document/relentless-expansion-of-settlements-violence-and-displacement-of-palestinians-in-the-occupied-west-bank-acting-special-coordinator-briefs-the-security-council-on-the-implementation-of-unscr-2334/",
+      "pdf_url": "https://unsco.unmissions.org/sites/default/files/2026-09/security_council_briefing_2334_-_28_september_2026.pdf",
+      "evidence_url": "https://unsco.unmissions.org/en/news/security-council-briefing-28-september-2026-unscr-2334",
+      "note": "UNSCO-Original der Rede von Ramiz Alakbarov vom 28.09.2026; alle 9 Seiten mit UNISPAL, DPPA und UNSCO abgeglichen."
+    }
+  ]
+}

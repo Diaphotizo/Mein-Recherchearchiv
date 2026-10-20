@@ -1,0 +1,75 @@
+INAKTIVER ABLAUFENTWURF - KEIN GITHUB-WORKFLOW
+
+Dieser Plan wird nicht ausgeführt. Erst nach Foundation-Zulassung und Prüfung
+der Artefaktrichtlinien kann daraus ein separater manueller Workflow werden.
+Nicht in .github/workflows kopieren: Dies ist Text, keine fertige Konfiguration.
+
+1. Sicherheits- und Kostengrenzen des unsignierten Workflows übernehmen:
+   ausschließlich öffentliches Diaphotizo/Mein-Recherchearchiv, manueller Start,
+   Standard windows-2022, keine Pull-Request-Trigger, keine bezahlten Dienste,
+   harte Ausgabensperre/Freikontingent, kurze Artefaktaufbewahrung.
+   Signierberechtigungen auf ein geschütztes Freigabe-Environment begrenzen.
+
+2. Den freigegebenen Commit auschecken; gepinnte Eingaben bauen und offline testen.
+   Alle vorangehenden Jobs müssen bei SignPath OSS auf GitHub-gehosteten Runnern
+   stattfinden. GITHUB_TOKEN nur mit tatsächlich benötigten Leserechten versehen.
+
+3. Uninstaller-Vorbereitung mit derselben Inno-Version und denselben
+   produktbestimmenden Einstellungen wie beim Endbuild:
+   - SignedUninstaller=yes
+   - SignedUninstallerDir=<neuer temporärer Ordner>
+   - zunächst kein SignTool (nicht EnableSigning verwenden, denn diese bestehende
+     Option erwartet einen synchronen SignTool-Aufruf).
+   Inno erzeugt bei fehlender Signatur einen eindeutig benannten Uninstaller und
+   fordert dessen externe Signierung an. Der noch nicht erfolgreiche Build darf
+   NUR an diesem nachgewiesenen Schritt als erwartete Unterbrechung gelten;
+   andere Compilerfehler müssen den Workflow stoppen. Diese Handhabung ist noch
+   als eigenes Hilfsskript mit Negativtests zu implementieren.
+
+4. Ausschließlich diesen erzeugten PE-Uninstaller mit actions/upload-artifact
+   als neues GitHub-Workflow-Artefakt hochladen. Sein von GitHub gelieferter
+   artifact-id geht an die offizielle SignPath-Action. Keine beliebige lokale
+   EXE oder Download-URL als Ersatz anbieten.
+   Die Datei kann eine Inno-spezifische Endung haben: mit SignPath abstimmen,
+   ob eine Kopie mit .exe-Endung nötig ist und wie die Originalbenennung
+   unverändert zurückgeführt wird. Keine Wildcard-Signierung aller EXEs/DLLs.
+
+5. SignPath:
+   - Foundation genehmigt das Projekt und die Richtlinie für diesen Uninstaller.
+   - Action auf einen dann geprüften offiziellen Commit pinnen.
+   - SIGNPATH_API_TOKEN nur aus dem geschützten Secret lesen.
+   - tatsächliche organisation-id, project-slug, signing-policy-slug einsetzen.
+   - manuelle Freigabe abwarten, signiertes Artefakt herunterladen.
+   - Pfade, Authenticode-Vertrauenskette, erwarteten Zertifikatsinhaber,
+     SHA-256-Signatur und Zeitstempel prüfen.
+
+6. Den geprüften signierten Uninstaller unter exakt seinem ursprünglichen Namen
+   im SignedUninstallerDir bereitstellen. Den Installer aus demselben Commit und
+   unveränderten Eingaben erneut kompilieren. Inno muss diesen signierten
+   Uninstaller verwenden. Keine Quellcode-, Versions- oder Compileränderung
+   zwischen beiden Stufen zulassen.
+
+7. Fertige äußere Setup-EXE als zweites GitHub-Workflow-Artefakt hochladen.
+   Die zweite freigegebene SignPath-PE-Richtlinie signiert genau diese Datei.
+   Produktname und Versionsmetadaten auf die erwarteten Werte beschränken.
+   Auch diese Signierung benötigt manuelle Freigabe und Windows-Verifikation.
+   Das enthaltene Python und unveränderte Fremdbibliotheken werden nicht separat
+   mit dem Projektzertifikat signiert.
+
+8. Signiertes Setup in einer Windows-11-Testinstallation prüfen, besonders:
+   tatsächlicher installierter unins000.exe gültig signiert, alle drei Sammlungen,
+   Upgrade/Deinstallation erhalten Dokumente, Fassungen und eigene Angaben.
+   Bei irgendeinem Signaturfehler keine Ausgabe als signiert kennzeichnen.
+
+9. Erst aus den endgültigen signierten Dateien SHA256.txt erzeugen.
+   Ergebnis zunächst als kurzlebiges Prüfartefakt bereitstellen.
+   Ein Release oder Upload auf die Downloadseite ist eine gesonderte Freigabe.
+
+Noch offen vor Aktivierung:
+- Foundation-Aufnahme und erlaubte Signierartefakte;
+- genehmigte Herkunfts-/Metadatenrichtlinien für beide PE-Dateien;
+- implementiertes und getestetes Inno-Zweistufen-Hilfsskript;
+- SignPath-Action-Commit, kostenlose Kontokonfiguration und Secret;
+- erfolgreicher Cloudlauf und Windows-11-Abnahme.
+
+Es wird ausdrücklich keine vorhandene, funktionierende Cloud-Signierung behauptet.

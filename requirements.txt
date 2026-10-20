@@ -1,0 +1,10 @@
+# Python 3.12 or newer, with the standard-library sqlite3 FTS5 extension.
+# Install into the project's own virtual environment: python -m pip install -r requirements.txt
+lxml>=6.1.1,<7
+reportlab>=4.4.9,<5
+pypdf>=6.10,<7
+pypdfium2>=5.14,<6
+python-bidi>=0.6.11,<1
+arabic-reshaper>=3.0.1,<4
+pdfplumber>=0.11.9,<1
+Pillow>=12.3,<13

@@ -1,0 +1,82 @@
+MEIN RECHERCHEARCHIV
+Installation und Nutzung · Windows 11 x64
+Stand: 20. Oktober 2026
+
+
+WAS ENTHALTEN IST
+
+Das Setup installiert die gemeinsame Such-App mit BIP, ICC / ICJ und UN-Dokumenten. Python und alle benötigten Python-Bibliotheken werden mitgeliefert. Eine manuelle Python-Installation und zusätzliche Befehle zur Einrichtung sind nicht nötig.
+
+Die Archive beginnen leer. Enthalten sind der Programmcode und öffentliche Quellenkonfigurationen. Persönliche Dokumente, Notizen, Schlagwörter oder Zugangsdaten des Erstellers werden nicht mitgeliefert.
+
+1. VORAUSSETZUNGEN
+
+Windows 11 mit einem Intel- oder AMD-Prozessor (64 Bit), ein aktueller Browser und genügend freier Speicher für Dokumente, Textdateien und frühere Fassungen. Die Funktion auf Windows-Geräten mit ARM-Prozessor ist nicht zugesichert.
+
+Die Installation verwendet die mitgelieferten Programmdateien und benötigt keine zusätzlichen Downloads von Python-Bibliotheken. Internet ist für den Abruf neuer Quellen nötig. Bereits gespeicherte Dokumente lassen sich lokal recherchieren. Codex, Dropbox und Node.js werden nicht benötigt.
+
+2. SETUP AUSFÜHREN
+
+Die Datei „Mein-Recherchearchiv-Setup-1.0.0-Windows11-x64.exe“ doppelt anklicken und den Schritten im Installationsfenster folgen. Alle drei Sammlungen werden gemeinsam eingerichtet. Eine Desktopverknüpfung kann optional gewählt werden.
+
+Die Installation erfolgt für das eigene Windows-Benutzerkonto. Der voreingestellte Ort ist der persönliche App-Ordner:
+
+%LOCALAPPDATA%\Programs\Mein Recherchearchiv
+
+Der Pfad lässt sich in die Adressleiste des Explorers einfügen. Im Startmenü steht später außerdem „Archivordner öffnen“ zur Verfügung. Das Archiv benötigt einen beschreibbaren Ordner, weil darin auch die Dokumente gespeichert werden.
+
+Die Setup-Datei ist nicht digital signiert. Windows kann deshalb einen unbekannten Herausgeber melden. Verwenden Sie nur eine Datei aus der erwarteten Quelle und prüfen Sie bei Bedarf die beigefügte SHA256-Prüfsumme. Windows-Schutzfunktionen müssen nicht abgeschaltet werden. Wenn eine Richtlinie die Installation blockiert, die zuständige IT oder den Herausgeber kontaktieren.
+
+3. APP STARTEN
+
+Im Windows-Startmenü die Gruppe „Mein Recherchearchiv“ öffnen. „Mein Recherchearchiv“ startet die gemeinsame App. Die Einträge „BIP“, „ICC-ICJ“ und „UN“ führen direkt zum jeweiligen Reiter. Alle drei Bereiche bleiben jederzeit über die Reiter erreichbar.
+
+Wurde die Desktopoption gewählt, öffnet die Verknüpfung „Mein Recherchearchiv (Setup)“ dieselbe App. Sie trägt das Symbol mit Weltkugel und Lupe. BIP verwendet den BIP-Schriftzug, ICC / ICJ die Gerichtssäulen und UN die grünen UN-Schriftzeichen.
+
+Die App öffnet sich in einem Edge-Appfenster, falls verfügbar, sonst im Standardbrowser. Sie ist nur auf dem eigenen Rechner erreichbar. Bei der ersten Einrichtung wird eine freie lokale Adresse im Bereich 8771 bis 8790 gewählt; deshalb die Startmenüverknüpfung verwenden und keine feste Adresse voraussetzen.
+
+4. DOKUMENTE HERUNTERLADEN
+
+Im gewünschten Reiter auf „Jetzt aktualisieren“ klicken und das Ergebnis abwarten. Jeder Reiter aktualisiert seine eigene Sammlung. Der erste Abruf kann längere Zeit dauern. Die App zeigt Fortschritt, Ergebnis und offene Quellenlücken.
+
+BIP liest öffentliche Artikel und Seiten von bip-jetzt.de und erstellt lokale TXT- und PDF-Fassungen.
+
+ICC / ICJ erfasst die eingerichteten öffentlichen englischsprachigen Gerichtsquellen.
+
+UN erfasst eingerichtete Quellen zu Deutschland und Israel sowie zum zusätzlichen Themenbereich Palästina, Gaza, Westbank und UNRWA. Aufgenommen werden englische und vorhandene deutsche Fassungen; es werden keine Übersetzungen erzeugt. Der Filter UND verlangt Deutschland- und Israel-Bezug, ODER mindestens einen dieser Bezüge. Deutsche Sprache allein bedeutet keinen Deutschland-Bezug.
+
+Die Quellen werden ausschließlich gelesen. Neue Dokumente und weitere Fassungen werden lokal aufgenommen; frühere Fassungen und eigene Angaben bleiben erhalten. „Jetzt aktualisieren“ aktualisiert die Quellen, nicht das Programm.
+
+5. UMFANG UND OFFENE QUELLEN
+
+Die eingerichteten Quellen bilden keine vollständige historische Bibliothek. Zugriffssperren oder andere Abruffehler können zu einem Teilabgleich führen. Die App zeigt solche Lücken an; der vorhandene Bestand bleibt verfügbar.
+
+Bei einer offenen Quelle den Original-Link im Browser prüfen. Manuell heruntergeladene PDFs müssen geprüft, zugeordnet und in den Katalog aufgenommen werden. Nur das Ablegen im PDF-Ordner reicht nicht. Ein allgemeiner Importknopf für beliebige Dateien ist nicht enthalten.
+
+Die Suche nutzt auslesbare Textschichten und Metadaten. Alte Scans oder Bildseiten sind eventuell nur teilweise durchsuchbar; eine zusätzliche OCR ist nicht enthalten.
+
+6. BEENDEN UND SICHERN
+
+Laufende Aktualisierungen und Indexierungen zuerst abschließen lassen. Dann im Startmenü „Archiv beenden“ wählen. Das Appfenster allein zu schließen, beendet den Hintergrunddienst noch nicht. Alternativ gibt es „Stoppen.cmd“ im Archivordner.
+
+Über „Archivordner öffnen“ den Speicherort aufrufen. Für eine Sicherung den gesamten Ordner auf ein anderes Laufwerk kopieren: einschließlich Recherche, BIP, ICC-ICJ, UN, runtime und der Dateien im Hauptordner. So sind auch frühere Fassungen und eigene Angaben erfasst. Der gemeinsame Ordner Recherche gehört ausdrücklich dazu.
+
+Den installierten Ordner nicht nachträglich verschieben, umbenennen oder auf mehrere Orte aufteilen. Der Katalog kann absolute Dokumentpfade enthalten. Eine Sicherung ist zunächst eine Sicherheitskopie; für einen Rechnerwechsel oder einen anderen Speicherort muss die Datenübernahme passend vorbereitet werden.
+
+Die App lädt eigene Archivdaten und Notizen nicht auf einen externen Server hoch. Wer den Installationsordner selbst in einen Cloudordner legt, nutzt zusätzlich dessen Synchronisierung.
+
+7. PROGRAMM AKTUALISIEREN ODER REPARIEREN
+
+Für eine neue Programmversion wird eine neue Setup-Datei bereitgestellt. Vorher die Sammlung sichern und „Archiv beenden“ wählen. Das neue Setup im bisherigen Installationsordner ausführen und dessen Versionshinweise beachten. Eigene Dokumente, frühere Fassungen und Angaben werden bei einer Programmaktualisierung erhalten.
+
+Falls eine Programmdatei fehlt oder beschädigt wurde, die vertrauenswürdige Setup-Datei erneut ausführen. Eine separate Installation von Python ist nicht nötig. „Jetzt aktualisieren“ repariert keine Programmdateien.
+
+Bei Startproblemen prüfen, ob die Installation vollständig abgeschlossen wurde. Eine Fehlermeldung möglichst im Wortlaut aufbewahren. Keine fremden Prozesse beenden, wenn eine lokale Adresse bereits belegt ist. Der Eintrag „Anleitung“ öffnet diese Hilfe.
+
+8. DEINSTALLIEREN UND WEITERGEBEN
+
+Zuerst laufende Aktualisierungen abschließen lassen, das Archiv beenden und eine vollständige Sicherung anlegen. Dann in Windows unter „Einstellungen → Apps → Installierte Apps“ den Eintrag „Mein Recherchearchiv“ deinstallieren.
+
+Die Deinstallation entfernt die installierten Programmdateien und Verknüpfungen. Eigene Dokumente, frühere Fassungen, Kataloge und Angaben bleiben am bisherigen Speicherort bestehen. Den verbleibenden Ordner nicht löschen, solange diese Daten noch gebraucht werden.
+
+Zum Weitergeben die ursprüngliche Setup-Datei und ihre Prüfsumme verwenden. Den bereits benutzten Archivordner nicht weitergeben: Darin befinden sich eigene Dokumente und Angaben. Bibliotheken und Symbole haben eigene Herkunfts- und Lizenzhinweise; siehe DRITTQUELLEN.md.

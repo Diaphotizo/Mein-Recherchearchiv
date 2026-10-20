@@ -1,0 +1,97 @@
+name: Windows-Installer vorbereiten (unsigniert)
+
+on:
+  workflow_dispatch:
+    inputs:
+      acknowledge_free_account:
+        description: "Kosten geprüft: keine Zahlungsmethode oder harte Ausgabensperre; freier Artefaktspeicher vorhanden"
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: windows-unsigned
+  cancel-in-progress: false
+
+jobs:
+  build:
+    # Public runner minutes are free; artifact storage has a separate account quota.
+    # Forks/private repositories must not start this by accident.
+    if: >-
+      github.event_name == 'workflow_dispatch' &&
+      github.repository == 'Diaphotizo/Mein-Recherchearchiv' &&
+      github.event.repository.private == false &&
+      inputs.acknowledge_free_account == true
+    runs-on: windows-2022
+    timeout-minutes: 45
+    defaults:
+      run:
+        shell: pwsh
+    env:
+      PYTHONIOENCODING: utf-8
+      PYTHONDONTWRITEBYTECODE: "1"
+      PIP_DISABLE_PIP_VERSION_CHECK: "1"
+      PIP_NO_CACHE_DIR: "1"
+    steps:
+      - name: Quellcode des bewusst gewählten Commits lesen
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+      - name: Python für den Build bereitstellen
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13.16"
+          architecture: x64
+          check-latest: false
+      - name: Saubere Veröffentlichung prüfen
+        run: |
+          python tools/verify_publication.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s tests -p "test_*.py"
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s installer -p "test_build_setup.py"
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s installer -p "test_installer_support.py"
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Geprüfte Laufzeit und Bibliotheken herunterladen
+        run: |
+          python installer/build_setup.py --prepare-runtime
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Offline-Funktionstests mit ausgelieferter Laufzeit
+        run: |
+          & ./runtime/python.exe -B pruefen.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          & ./runtime/python.exe -B installer/test_runtime.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Gepinnten und signaturgeprüften Installer-Compiler bereitstellen
+        run: ./installer/install_inno.ps1
+      - name: Isolierten Installations-, Upgrade- und Deinstallationstest ausführen
+        run: |
+          python installer/build_setup.py --compiler installer/tools/InnoSetup/ISCC.exe --isolated-test
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python installer/test_setup_integration.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Windows-11-Ausgabe und vollständigen Quellcode bauen
+        run: |
+          python installer/build_setup.py --compiler installer/tools/InnoSetup/ISCC.exe --source-zip
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          $setupSignature = Get-AuthenticodeSignature -LiteralPath 'installer/output/Mein-Recherchearchiv-Setup-1.0.0-Windows11-x64.exe'
+          if ($setupSignature.Status -ne 'NotSigned') {
+            throw 'Unsigned build has an unexpected signature state.'
+          }
+          python installer/prepare_ci_artifact.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Begrenztes Build-Artefakt für einen Tag bereitstellen
+        id: unsigned_artifact
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: recherchearchiv-unsigniert-${{ github.run_id }}
+          path: installer/artifacts/
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
+          include-hidden-files: false

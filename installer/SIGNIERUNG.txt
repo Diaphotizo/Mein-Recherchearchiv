@@ -1,0 +1,30 @@
+DIGITALE SIGNATUR - NOCH NICHT AKTIV
+
+Dieses Projekt bereitet einen Antrag bei der kostenlosen SignPath Foundation vor.
+Weder eine Aufnahme noch eine öffentliche Signatur ist derzeit bestätigt.
+Es werden keine kostenpflichtigen Zertifikate oder Signierabonnements verwendet.
+
+Die Bedingungen und noch offenen technischen Schritte stehen in:
+  ../CODE_SIGNING.md
+  signpath/README.md
+  signpath/workflow-plan.txt
+
+setup.iss enthält eine optionale Inno-Anbindung namens recherche_release_signer.
+Ohne EnableSigning entsteht die gewöhnliche unsignierte Ausgabe. Diese Option
+allein stellt weder ein Zertifikat noch eine Cloud-Verbindung bereit.
+Mit EnableSigning sind ein neuer SignedReleaseDir und ein geprüftes
+Signierwerkzeug erforderlich; auch das eingebettete Deinstallationsprogramm
+muss signiert sein. Die SignPath-Anbindung muss dies vor Aktivierung nachweisen.
+
+Veröffentlichte unsignierte Dateien niemals stillschweigend ersetzen.
+Signierte Ausgabe separat bauen, Setup und tatsächlichen Uninstaller auf
+gültige Signatur, erwarteten Herausgeber, Vertrauenskette und Zeitstempel prüfen.
+Erst danach SHA256.txt aus den endgültigen Dateien erzeugen.
+
+Eine gültige Signatur macht den Herausgeber überprüfbar; sie garantiert
+keine sofortige SmartScreen-Freigabe einer neuen Anwendung.
+Selbstsignierte Zertifikate ersetzen keine öffentliche Vertrauensstellung.
+
+https://signpath.org/terms
+https://jrsoftware.org/ishelp/topic_setup_signeduninstaller.htm
+https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation

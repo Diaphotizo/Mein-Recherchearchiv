@@ -1,0 +1,15 @@
+# Successfully installed and tested on Windows x64; installer bundles Python 3.13.16.
+# Pinned binary wheels bundled in the Windows installer.
+arabic-reshaper==3.0.1
+cffi==2.1.1
+charset-normalizer==3.5.2
+cryptography==50.0.2
+lxml==6.1.3
+pdfminer.six==20260107
+pdfplumber==0.11.10
+Pillow==12.3.0
+pycparser==3.11
+pypdf==6.21.1
+pypdfium2==5.14.0
+python-bidi==0.6.12
+reportlab==4.5.1
